@@ -1,0 +1,8 @@
+# gtk-font-name = "DejaVu Sans 6"
+gtk-font-name = "Liberation Sans 7.5"
+style "user-font"
+{
+#        font_name = "DejaVu Sans 6"
+        font_name = "Liberation Sans 7.5"
+}
+widget_class "*" style "user-font"
