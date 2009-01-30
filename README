@@ -1,0 +1,12 @@
+Configuration files for my home computer. I'm
+hosting this on Gitweb for a couple of reasons.
+First of all, if things go south with this
+computer, I want to have some stuff backed up.
+Secondly, things are working pretty well with
+this computer, and if other people want to see
+how I got things working properly, they can
+check out the configuration files hosted on
+gitweb. Everyone wins!
+
+This is the type of computer I have:
+  Linux desktop 2.6.28-gentoo-r1 #1 SMP PREEMPT Fri Jan 30 05:16:19 CST 2009 x86_64 AMD Athlon(tm) 64 X2 Dual Core Processor 4400+ AuthenticAMD GNU/Linux
