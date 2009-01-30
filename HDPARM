@@ -1,3 +1,5 @@
+# These are the results of running:
+# sudo hdparm -Tt /dev/sda
 
 /dev/sda:
  Timing cached reads:   1882 MB in  2.00 seconds = 940.97 MB/sec
