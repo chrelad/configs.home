@@ -1,0 +1,16 @@
+dev-util/git -bash-completion -gtk -iconv -perl -threads -vim-syntax -xinetd
+dev-util/subversion -berkdb -dso -webdav-neon -python -perl
+net-im/bitlbee gnutls msn
+dev-libs/libxml2 -python
+app-editors/vim -perl -python
+dev-python/wxpython -opengl
+media-video/mplayer -gtk -cpudetection
+dev-ruby/activerecord sqlite
+dev-lang/ruby doc sqlite3
+dev-python/django sqlite3
+dev-libs/libxml2 python
+net-misc/curl nss gnutls
+www-servers/cherokee admin
+dev-lang/php cgi xml curl xsl sockets json gd
+net-mail/freepops gnutls
+mail-client/mutt gnutls smtp pop imap
