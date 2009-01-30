@@ -1,0 +1,461 @@
+desktop
+    description: Desktop Computer
+    product: ET1161-03
+    vendor: Gateway
+    version: 9000
+    serial: PTNAD0X00184100A5B9000
+    width: 64 bits
+    capabilities: smbios-2.4 dmi-2.4 vsyscall64 vsyscall32
+    configuration: boot=normal chassis=desktop uuid=802339E3-4796-DD11-863F-B778B67A4294
+  *-core
+       description: Motherboard
+       product: MCP61PM-GM
+       vendor: ECS
+       physical id: 0
+       version: 2.2
+       serial: OEM
+       slot: External Cache
+     *-firmware
+          description: BIOS
+          vendor: Phoenix Technologies, LTD
+          physical id: 0
+          version: 6.00 PG (07/31/2008)
+          size: 128KiB
+          capacity: 960KiB
+          capabilities: isa pci pnp apm upgrade shadowing cdboot bootselect socketedrom edd int13floppy360 int13floppy1200 int13floppy720 int13floppy2880 int5printscreen int9keyboard int14serial int17printer int10video acpi usb ls120boot zipboot biosbootspecification netboot
+     *-cpu
+          description: CPU
+          product: AMD Athlon(tm) 64 X2 Dual Core Processor 4400+
+          vendor: Advanced Micro Devices [AMD]
+          physical id: 3
+          bus info: cpu@0
+          version: AMD Athlon(tm) 64 X2 Dual Core Processor 4400+
+          slot: Socket AM2
+          size: 2300MHz
+          capacity: 3GHz
+          width: 64 bits
+          clock: 201MHz
+          capabilities: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt rdtscp x86-64 3dnowext 3dnow rep_good pni cx16 lahf_lm cmp_legacy svm extapic cr8_legacy 3dnowprefetch
+        *-cache:0
+             description: L1 cache
+             physical id: a
+             slot: Internal Cache
+             size: 128KiB
+             capacity: 128KiB
+             capabilities: synchronous internal write-back
+        *-cache:1
+             description: L2 cache
+             physical id: c
+             slot: External Cache
+             size: 512KiB
+             capacity: 512KiB
+             capabilities: synchronous internal write-back
+     *-cache:0
+          description: L1 cache
+          physical id: 4
+          slot: Internal Cache
+          size: 128KiB
+          capacity: 128KiB
+          capabilities: synchronous internal write-back
+     *-cache:1
+          description: L2 cache
+          physical id: d
+          slot: External Cache
+          size: 512KiB
+          capacity: 512KiB
+          capabilities: synchronous internal write-back
+     *-memory:0
+          description: System Memory
+          physical id: 1a
+          slot: System board or motherboard
+          size: 3GiB
+        *-bank:0
+             description: DIMM
+             product: None
+             vendor: None
+             physical id: 0
+             serial: None
+             slot: A0
+             size: 1GiB
+             width: 64 bits
+        *-bank:1
+             description: DIMM
+             product: None
+             vendor: None
+             physical id: 1
+             serial: None
+             slot: A1
+             size: 1GiB
+             width: 64 bits
+        *-bank:2
+             description: DIMM
+             product: None
+             vendor: None
+             physical id: 2
+             serial: None
+             slot: A2
+             size: 512MiB
+             width: 64 bits
+        *-bank:3
+             description: DIMM
+             product: None
+             vendor: None
+             physical id: 3
+             serial: None
+             slot: A3
+             size: 512MiB
+             width: 64 bits
+     *-memory:1 UNCLAIMED
+          description: RAM memory
+          product: MCP61 Memory Controller
+          vendor: nVidia Corporation
+          physical id: a
+          bus info: pci@0000:00:00.0
+          version: a1
+          width: 32 bits
+          clock: 66MHz (15.2ns)
+          capabilities: ht bus_master cap_list
+          configuration: latency=0
+     *-isa
+          description: ISA bridge
+          product: MCP61 LPC Bridge
+          vendor: nVidia Corporation
+          physical id: 1
+          bus info: pci@0000:00:01.0
+          version: a2
+          width: 32 bits
+          clock: 66MHz
+          capabilities: isa bus_master
+          configuration: latency=0
+     *-serial UNCLAIMED
+          description: SMBus
+          product: MCP61 SMBus
+          vendor: nVidia Corporation
+          physical id: 1.1
+          bus info: pci@0000:00:01.1
+          version: a2
+          width: 32 bits
+          clock: 66MHz
+          capabilities: pm cap_list
+          configuration: latency=0
+     *-memory:2 UNCLAIMED
+          description: RAM memory
+          product: MCP61 Memory Controller
+          vendor: nVidia Corporation
+          physical id: 1.2
+          bus info: pci@0000:00:01.2
+          version: a2
+          width: 32 bits
+          clock: 66MHz (15.2ns)
+          configuration: latency=0
+     *-usb:0
+          description: USB Controller
+          product: MCP61 USB Controller
+          vendor: nVidia Corporation
+          physical id: 2
+          bus info: pci@0000:00:02.0
+          version: a3
+          width: 32 bits
+          clock: 66MHz
+          capabilities: pm ohci bus_master cap_list
+          configuration: driver=ohci_hcd latency=0 maxlatency=1 mingnt=3
+        *-usbhost
+             product: OHCI Host Controller
+             vendor: Linux 2.6.28-gentoo-r1 ohci_hcd
+             physical id: 1
+             bus info: usb@2
+             logical name: usb2
+             version: 2.06
+             capabilities: usb-1.10
+             configuration: driver=hub slots=10 speed=12.0MB/s
+           *-usb
+                description: Mouse
+                product: Optical Wheel Mouse
+                vendor: Dell Computer Corp.
+                physical id: 6
+                bus info: usb@2:6
+                version: 2.30
+                capabilities: usb-2.00
+                configuration: driver=usbhid maxpower=100mA speed=1.5MB/s
+     *-usb:1
+          description: USB Controller
+          product: MCP61 USB Controller
+          vendor: nVidia Corporation
+          physical id: 2.1
+          bus info: pci@0000:00:02.1
+          version: a3
+          width: 32 bits
+          clock: 66MHz
+          capabilities: debug pm ehci bus_master cap_list
+          configuration: driver=ehci_hcd latency=0 maxlatency=1 mingnt=3 module=ehci_hcd
+        *-usbhost
+             product: EHCI Host Controller
+             vendor: Linux 2.6.28-gentoo-r1 ehci_hcd
+             physical id: 1
+             bus info: usb@1
+             logical name: usb1
+             version: 2.06
+             capabilities: usb-2.00
+             configuration: driver=hub slots=10 speed=480.0MB/s
+           *-usb
+                description: Mass storage device
+                product: Mass Storage Device
+                vendor: Generic
+                physical id: 9
+                bus info: usb@1:9
+                logical name: scsi4
+                version: 1.00
+                serial: 920321111113
+                capabilities: usb-2.00 scsi emulated scsi-host
+                configuration: driver=usb-storage maxpower=100mA speed=480.0MB/s
+              *-disk:0
+                   description: SCSI Disk
+                   physical id: 0.0.0
+                   bus info: scsi@4:0.0.0
+                   logical name: /dev/sdb
+              *-disk:1
+                   description: SCSI Disk
+                   physical id: 0.0.1
+                   bus info: scsi@4:0.0.1
+                   logical name: /dev/sdc
+              *-disk:2
+                   description: SCSI Disk
+                   physical id: 0.0.2
+                   bus info: scsi@4:0.0.2
+                   logical name: /dev/sdd
+              *-disk:3
+                   description: SCSI Disk
+                   physical id: 0.0.3
+                   bus info: scsi@4:0.0.3
+                   logical name: /dev/sde
+     *-pci:0
+          description: PCI bridge
+          product: MCP61 PCI bridge
+          vendor: nVidia Corporation
+          physical id: 100
+          bus info: pci@0000:00:04.0
+          version: a1
+          width: 32 bits
+          clock: 66MHz
+          capabilities: pci ht subtractive_decode bus_master cap_list
+        *-communication UNCLAIMED
+             description: Communication controller
+             product: Conexant Systems, Inc.
+             vendor: Conexant Systems, Inc.
+             physical id: 6
+             bus info: pci@0000:01:06.0
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pm bus_master cap_list
+             configuration: latency=0
+     *-multimedia
+          description: Audio device
+          product: MCP61 High Definition Audio
+          vendor: nVidia Corporation
+          physical id: 5
+          bus info: pci@0000:00:05.0
+          version: a2
+          width: 32 bits
+          clock: 66MHz
+          capabilities: pm msi ht bus_master cap_list
+          configuration: driver=HDA Intel latency=0 maxlatency=5 mingnt=2 module=snd_hda_intel
+     *-ide:0
+          description: IDE interface
+          product: MCP61 IDE
+          vendor: nVidia Corporation
+          physical id: 6
+          bus info: pci@0000:00:06.0
+          version: a2
+          width: 32 bits
+          clock: 66MHz
+          capabilities: ide pm bus_master cap_list
+          configuration: driver=AMD_IDE latency=0 maxlatency=1 mingnt=3
+        *-ide
+             description: IDE Channel 0
+             physical id: 0
+             bus info: ide@0
+             logical name: ide0
+             clock: 66MHz
+     *-bridge
+          description: Ethernet interface
+          product: MCP61 Ethernet
+          vendor: nVidia Corporation
+          physical id: 7
+          bus info: pci@0000:00:07.0
+          logical name: eth0
+          version: a2
+          serial: 00:21:97:29:58:27
+          size: 100000000
+          capacity: 100000000
+          width: 32 bits
+          clock: 66MHz
+          capabilities: bridge pm msi ht bus_master cap_list ethernet physical mii 10bt 10bt-fd 100bt 100bt-fd autonegotiation
+          configuration: autonegotiation=on broadcast=yes driver=forcedeth driverversion=0.61 duplex=full ip=192.168.1.6 latency=0 link=yes maxlatency=20 mingnt=1 multicast=yes port=MII speed=100MB/s
+     *-ide:1
+          description: IDE interface
+          product: MCP61 SATA Controller
+          vendor: nVidia Corporation
+          physical id: 8
+          bus info: pci@0000:00:08.0
+          logical name: scsi0
+          logical name: scsi1
+          version: a2
+          width: 32 bits
+          clock: 66MHz
+          capabilities: ide pm msi ht bus_master cap_list emulated
+          configuration: driver=sata_nv latency=0 maxlatency=1 mingnt=3 module=sata_nv
+        *-disk
+             description: ATA Disk
+             product: WDC WD3200AAJS-2
+             vendor: Western Digital
+             physical id: 0
+             bus info: scsi@0:0.0.0
+             logical name: /dev/sda
+             version: 01.0
+             serial: WD-WMAT15071139
+             size: 298GiB (320GB)
+             capabilities: partitioned partitioned:dos
+             configuration: ansiversion=5 signature=0a757a4e
+           *-volume:0
+                description: EXT3 volume
+                vendor: Linux
+                physical id: 1
+                bus info: scsi@0:0.0.0,1
+                logical name: /dev/sda1
+                version: 1.0
+                serial: 21cd5ee6-7cea-47f6-b9cf-f0868aa1749f
+                size: 31MiB
+                capacity: 31MiB
+                capabilities: primary bootable journaled extended_attributes large_files huge_files recover ext3 ext2 initialized
+                configuration: created=2009-01-04 09:45:07 filesystem=ext3 modified=2009-01-30 05:20:08 mounted=2009-01-30 05:17:29 state=clean
+           *-volume:1
+                description: Linux swap volume
+                physical id: 2
+                bus info: scsi@0:0.0.0,2
+                logical name: /dev/sda2
+                version: 1
+                serial: d74f99c6-969c-4d90-884c-57589ac18b98
+                size: 980MiB
+                capacity: 980MiB
+                capabilities: primary nofs swap initialized
+                configuration: filesystem=swap pagesize=4096
+           *-volume:2
+                description: EXT3 volume
+                vendor: Linux
+                physical id: 3
+                bus info: scsi@0:0.0.0,3
+                logical name: /dev/sda3
+                logical name: /
+                version: 1.0
+                serial: c8f5b04a-fe4e-45aa-a7ff-e4d25b927075
+                size: 297GiB
+                capacity: 297GiB
+                capabilities: primary journaled extended_attributes large_files huge_files recover ext3 ext2 initialized
+                configuration: created=2009-01-04 09:43:31 filesystem=ext3 modified=2009-01-30 05:21:12 mount.fstype=ext3 mount.options=rw,noatime,errors=continue,data=ordered mounted=2009-01-30 05:21:12 state=mounted
+        *-cdrom
+             description: DVD-RAM writer
+             product: DVDRAM GH15F
+             vendor: HL-DT-ST
+             physical id: 1
+             bus info: scsi@1:0.0.0
+             logical name: /dev/cdrom
+             logical name: /dev/cdrw
+             logical name: /dev/dvd
+             logical name: /dev/dvdrw
+             logical name: /dev/scd0
+             logical name: /dev/sr0
+             version: EG00
+             capabilities: removable audio cd-r cd-rw dvd dvd-r dvd-ram
+             configuration: ansiversion=5 status=nodisc
+     *-ide:2
+          description: IDE interface
+          product: MCP61 SATA Controller
+          vendor: nVidia Corporation
+          physical id: 8.1
+          bus info: pci@0000:00:08.1
+          version: a2
+          width: 32 bits
+          clock: 66MHz
+          capabilities: ide pm msi ht bus_master cap_list
+          configuration: driver=sata_nv latency=0 maxlatency=1 mingnt=3 module=sata_nv
+     *-pci:1
+          description: PCI bridge
+          product: MCP61 PCI Express bridge
+          vendor: nVidia Corporation
+          physical id: 9
+          bus info: pci@0000:00:09.0
+          version: a2
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pci pm msi ht pciexpress normal_decode bus_master cap_list
+          configuration: driver=pcieport-driver
+        *-display
+             description: VGA compatible controller
+             product: GeForce 8800 GT
+             vendor: nVidia Corporation
+             physical id: 0
+             bus info: pci@0000:02:00.0
+             version: a2
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi pciexpress vga_controller bus_master cap_list
+             configuration: driver=nvidia latency=0 module=nvidia
+     *-pci:2
+          description: PCI bridge
+          product: MCP61 PCI Express bridge
+          vendor: nVidia Corporation
+          physical id: 101
+          bus info: pci@0000:00:0b.0
+          version: a2
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pci pm msi ht pciexpress normal_decode bus_master cap_list
+          configuration: driver=pcieport-driver
+     *-pci:3
+          description: PCI bridge
+          product: MCP61 PCI Express bridge
+          vendor: nVidia Corporation
+          physical id: c
+          bus info: pci@0000:00:0c.0
+          version: a2
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pci pm msi ht pciexpress normal_decode bus_master cap_list
+          configuration: driver=pcieport-driver
+     *-pci:4
+          description: Host bridge
+          product: K8 [Athlon64/Opteron] HyperTransport Technology Configuration
+          vendor: Advanced Micro Devices [AMD]
+          physical id: 102
+          bus info: pci@0000:00:18.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:5
+          description: Host bridge
+          product: K8 [Athlon64/Opteron] Address Map
+          vendor: Advanced Micro Devices [AMD]
+          physical id: 103
+          bus info: pci@0000:00:18.1
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:6
+          description: Host bridge
+          product: K8 [Athlon64/Opteron] DRAM Controller
+          vendor: Advanced Micro Devices [AMD]
+          physical id: 104
+          bus info: pci@0000:00:18.2
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:7
+          description: Host bridge
+          product: K8 [Athlon64/Opteron] Miscellaneous Control
+          vendor: Advanced Micro Devices [AMD]
+          physical id: 105
+          bus info: pci@0000:00:18.3
+          version: 00
+          width: 32 bits
+          clock: 33MHz
