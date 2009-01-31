@@ -1,13 +1,14 @@
 -- Include awesome libraries, with lots of useful function!
 require("awful")
 require("beautiful")
+require("naughty")
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, and wallpapers
 -- The default is a dark theme
-theme_path = "/usr/share/awesome/themes/default/theme"
+-- theme_path = "/usr/share/awesome/themes/default/theme"
 -- Uncommment this for a lighter theme
--- theme_path = "/usr/share/awesome/themes/sky/theme"
+theme_path = "/usr/share/awesome/themes/fm/theme"
 
 -- Actually load theme
 beautiful.init(theme_path)
@@ -59,7 +60,10 @@ floatapps =
 -- Use the screen and tags indices.
 apptags =
 {
-    -- ["Firefox"] = { screen = 1, tag = 2 },
+--    ["dev"] = { screen = 1, tag = 1 },
+--    ["com"] = { screen = 1, tag = 1 },
+--    ["Firefox"] = { screen = 1, tag = 1 },
+--    ["home"] = { screen = 1, tag = 2 }
     -- ["mocp"] = { screen = 2, tag = 4 },
 }
 
@@ -70,18 +74,14 @@ use_titlebar = false
 -- {{{ Tags
 -- Define tags table.
 tags = {}
-for s = 1, screen.count() do
-    -- Each screen has its own tag table.
-    tags[s] = {}
-    -- Create 9 tags per screen.
-    for tagnumber = 1, 9 do
-        tags[s][tagnumber] = tag({ name = tagnumber, layout = layouts[1] })
-        -- Add tags to screen one by one
-        tags[s][tagnumber].screen = s
-    end
-    -- I'm sure you want to see at least one tag.
-    tags[s][1].selected = true
-end
+tags[1] = {}
+tags[1][1] = tag({ name = "dev", layout = "magnifier" })
+tags[1][2] = tag({ name = "www", layout = "magnifier" })
+tags[1][3] = tag({ name = "com", layout = "magnifier" })
+tags[1][1].screen = 1
+tags[1][2].screen = 1
+tags[1][3].screen = 1
+tags[1][1].selected = true
 -- }}}
 
 -- {{{ Wibox
@@ -147,12 +147,8 @@ for s = 1, screen.count() do
     -- Create the wibox
     mywibox[s] = wibox({ position = "top", fg = beautiful.fg_normal, bg = beautiful.bg_normal })
     -- Add widgets to the wibox - order matters
-    mywibox[s].widgets = { mylauncher,
-                           mytaglist[s],
-                           mytasklist[s],
+    mywibox[s].widgets = { mytaglist[s],
                            mypromptbox[s],
-                           mytextbox,
-                           mylayoutbox[s],
                            s == 1 and mysystray or nil }
     mywibox[s].screen = s
 end
@@ -208,12 +204,13 @@ for i = 1, keynumber do
                    end):add()
 end
 
-keybinding({ modkey }, "Left", awful.tag.viewprev):add()
-keybinding({ modkey }, "Right", awful.tag.viewnext):add()
+keybinding({ modkey }, "h", awful.tag.viewprev):add()
+keybinding({ modkey }, "l", awful.tag.viewnext):add()
 keybinding({ modkey }, "Escape", awful.tag.history.restore):add()
 
 -- Standard program
 keybinding({ modkey }, "Return", function () awful.util.spawn(terminal) end):add()
+keybinding({ modkey }, "KP_Enter", function () awful.util.spawn("firefox") end):add()
 
 keybinding({ modkey, "Control" }, "r", function ()
                                            mypromptbox[mouse.screen].text =
@@ -223,24 +220,24 @@ keybinding({ modkey, "Shift" }, "q", awesome.quit):add()
 
 -- Client manipulation
 keybinding({ modkey }, "m", awful.client.maximize):add()
-keybinding({ modkey }, "f", function () if client.focus then client.focus.fullscreen = not client.focus.fullscreen end end):add()
-keybinding({ modkey, "Shift" }, "c", function () if client.focus then client.focus:kill() end end):add()
-keybinding({ modkey }, "j", function () awful.client.focus.byidx(1); if client.focus then client.focus:raise() end end):add()
-keybinding({ modkey }, "k", function () awful.client.focus.byidx(-1);  if client.focus then client.focus:raise() end end):add()
+keybinding({ modkey }, "f", function () client.focus.fullscreen = not client.focus.fullscreen end):add()
+keybinding({ modkey, "Shift" }, "c", function () client.focus:kill() end):add()
+keybinding({ modkey }, "j", function () awful.client.focus.byidx(1); client.focus:raise() end):add()
+keybinding({ modkey }, "k", function () awful.client.focus.byidx(-1);  client.focus:raise() end):add()
 keybinding({ modkey, "Shift" }, "j", function () awful.client.swap.byidx(1) end):add()
-keybinding({ modkey, "Shift" }, "k", function () awful.client.swap.byidx(-1) end):add()
+keybinding({ modkey, "Shift" }, "k", function () awful.client.swap(-1) end):add()
 keybinding({ modkey, "Control" }, "j", function () awful.screen.focus(1) end):add()
 keybinding({ modkey, "Control" }, "k", function () awful.screen.focus(-1) end):add()
 keybinding({ modkey, "Control" }, "space", awful.client.togglefloating):add()
-keybinding({ modkey, "Control" }, "Return", function () if client.focus then client.focus:swap(awful.client.getmaster()) end end):add()
+keybinding({ modkey, "Control" }, "Return", function () client.focus:swap(awful.client.getmaster()) end):add()
 keybinding({ modkey }, "o", awful.client.movetoscreen):add()
 keybinding({ modkey }, "Tab", awful.client.focus.history.previous):add()
 keybinding({ modkey }, "u", awful.client.urgent.jumpto):add()
-keybinding({ modkey, "Shift" }, "r", function () if client.focus then client.focus:redraw() end end):add()
+keybinding({ modkey, "Shift" }, "r", function () client.focus:redraw() end):add()
 
 -- Layout manipulation
-keybinding({ modkey }, "l", function () awful.tag.incmwfact(0.05) end):add()
-keybinding({ modkey }, "h", function () awful.tag.incmwfact(-0.05) end):add()
+keybinding({ modkey }, ";", function () awful.tag.incmwfact(0.05) end):add()
+keybinding({ modkey }, "g", function () awful.tag.incmwfact(-0.05) end):add()
 keybinding({ modkey, "Shift" }, "h", function () awful.tag.incnmaster(1) end):add()
 keybinding({ modkey, "Shift" }, "l", function () awful.tag.incnmaster(-1) end):add()
 keybinding({ modkey, "Control" }, "h", function () awful.tag.incncol(1) end):add()
@@ -262,7 +259,7 @@ keybinding({ modkey, "Ctrl" }, "i", function ()
                                         local s = mouse.screen
                                         if mypromptbox[s].text then
                                             mypromptbox[s].text = nil
-                                        elseif client.focus then
+                                        else
                                             mypromptbox[s].text = nil
                                             if client.focus.class then
                                                 mypromptbox[s].text = "Class: " .. client.focus.class .. " "
@@ -342,6 +339,7 @@ awful.hooks.manage.register(function (c)
     -- if they're not focusable, so set border anyway.
     c.border_width = beautiful.border_width
     c.border_color = beautiful.border_normal
+    client.focus = c
 
     -- Check if the application should be floating.
     local cls = c.class
@@ -363,9 +361,6 @@ awful.hooks.manage.register(function (c)
         c.screen = target.screen
         awful.client.movetotag(tags[target.screen][target.tag], c)
     end
-
-    -- Do this after tag mapping, so you don't see it on the wrong tag for a split second.
-    client.focus = c
 
     -- Set the windows at the slave,
     -- i.e. put it at the end of others instead of setting it master.
