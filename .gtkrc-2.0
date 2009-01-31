@@ -1,5 +1,5 @@
 # -- THEME AUTO-WRITTEN DO NOT EDIT
-include "/usr/share/themes/Xfce-dusk/gtk-2.0/gtkrc"
+include "/home/chrelad/.themes/FM/gtk-2.0/gtkrc"
 
 include "/home/chrelad/.gtkrc.mine"
 
