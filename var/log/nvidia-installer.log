@@ -1,5 +1,5 @@
 nvidia-installer log file '/var/log/nvidia-installer.log'
-creation time: Fri Jan 30 05:22:02 2009
+creation time: Mon Feb  2 04:42:21 2009
 installer version: 1.0.7
 
 option status:
@@ -79,11 +79,11 @@ Using: nvidia-installer ncurses user interface
    1/source SYSOUT=/lib/modules/2.6.28-gentoo-r1/build'...
    NVIDIA: calling KBUILD...
    make CC=cc KBUILD_OUTPUT=/lib/modules/2.6.28-gentoo-r1/build KBUILD_VERBOSE=
-   1 -C /lib/modules/2.6.28-gentoo-r1/source SUBDIRS=/tmp/selfgz2292/NVIDIA-Lin
-   ux-x86_64-180.22-pkg2/usr/src/nv modules
+   1 -C /lib/modules/2.6.28-gentoo-r1/source SUBDIRS=/tmp/selfgz26471/NVIDIA-Li
+   nux-x86_64-180.22-pkg2/usr/src/nv modules
    make -C /lib/modules/2.6.28-gentoo-r1/build \
    	KBUILD_SRC=/usr/src/linux-2.6.28-gentoo-r1 \
-   	KBUILD_EXTMOD="/tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv" 
+   	KBUILD_EXTMOD="/tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv"
    -f /usr/src/linux-2.6.28-gentoo-r1/Makefile \
    	modules
    test -e include/linux/autoconf.h -a -e include/config/auto.conf || (		\
@@ -95,40 +95,40 @@ Using: nvidia-installer ncurses user interface
    .";	\
    	echo;								\
    	/bin/false)
-   mkdir -p /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/.tmp_ver
-   sions ; rm -f /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/.tm
-   p_versions/*
+   mkdir -p /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/.tmp_ve
+   rsions ; rm -f /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/.
+   tmp_versions/*
    make -f /usr/src/linux-2.6.28-gentoo-r1/scripts/Makefile.build obj=/tmp/self
-   gz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv
-     cc -Wp,-MD,/tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/.nv.
-   o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/4.3.3/include -D__K
-   ERNEL__ -Iinclude -Iinclude2 -I/usr/src/linux-2.6.28-gentoo-r1/include -I/us
-   r/src/linux-2.6.28-gentoo-r1/arch/x86/include -include include/linux/autocon
-   f.h  -I/tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv -Wall -Wun
-   def -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Wer
-   ror-implicit-function-declaration -Os -m64 -march=k8 -mno-red-zone -mcmodel=
-   kernel -funit-at-a-time -maccumulate-outgoing-args -DCONFIG_AS_CFI=1 -DCONFI
-   G_AS_CFI_SIGNAL_FRAME=1 -pipe -Wno-sign-compare -fno-asynchronous-unwind-tab
-   les -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -I/usr/src/linux-2.6.28-gentoo-r1
-   /arch/x86/include/asm/mach-default -Iarch/x86/include/asm/mach-default -fno-
-   stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdeclar
-   ation-after-statement -Wno-pointer-sign  -I/tmp/selfgz2292/NVID
-   IA-Linux-x86_64-180.22-pkg2/usr/src/nv -Wall -Wimplicit -Wreturn-type -Wswit
-   ch -Wformat -Wchar-subscripts -Wparentheses -Wpointer-arith -Wno-multichar -
-   Werror -mcmodel=kernel -mno-red-zone -MD -Wsign-compare -Wno-cast-qual -Wno-
-   error -D__KERNEL__ -DMODULE -DNVRM -DNV_VERSION_STRING=\"180.22\" -UDEBUG -U
-   _DEBUG -DNDEBUG -DMODULE -D"KBUILD_STR(s)=#s" -D"KBUILD_BASENAME=KBUILD_STR(
-   nv)"  -D"KBUILD_MODNAME=KBUILD_STR(nvidia)"  -c -o /tmp/selfgz2292/NVIDIA-Li
-   nux-x86_64-180.22-pkg2/usr/src/nv/nv.o /tmp/selfgz2292/NVIDIA-Linux-x86_64-1
-   80.22-pkg2/usr/src/nv/nv.c
+   gz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv
+     cc -Wp,-MD,/tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/.nv
+   .o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/4.3.3/include -D__
+   KERNEL__ -Iinclude -Iinclude2 -I/usr/src/linux-2.6.28-gentoo-r1/include -I/u
+   sr/src/linux-2.6.28-gentoo-r1/arch/x86/include -include include/linux/autoco
+   nf.h  -I/tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv -Wall -W
+   undef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -W
+   error-implicit-function-declaration -Os -m64 -march=k8 -mno-red-zone -mcmode
+   l=kernel -funit-at-a-time -maccumulate-outgoing-args -DCONFIG_AS_CFI=1 -DCON
+   FIG_AS_CFI_SIGNAL_FRAME=1 -pipe -Wno-sign-compare -fno-asynchronous-unwind-t
+   ables -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -I/usr/src/linux-2.6.28-gentoo-
+   r1/arch/x86/include/asm/mach-default -Iarch/x86/include/asm/mach-default -fn
+   o-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdecl
+   aration-after-statement -Wno-pointer-sign  -I/tmp/selfgz26
+   471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv -Wall -Wimplicit -Wreturn-typ
+   e -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wpointer-arith -Wno-mul
+   tichar -Werror -mcmodel=kernel -mno-red-zone -MD -Wsign-compare -Wno-cast-qu
+   al -Wno-error -D__KERNEL__ -DMODULE -DNVRM -DNV_VERSION_STRING=\"180.22\" -U
+   DEBUG -U_DEBUG -DNDEBUG -DMODULE -D"KBUILD_STR(s)=#s" -D"KBUILD_BASENAME=KBU
+   ILD_STR(nv)"  -D"KBUILD_MODNAME=KBUILD_STR(nvidia)"  -c -o /tmp/selfgz26471/
+   NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/nv.o /tmp/selfgz26471/NVIDIA-Linu
+   x-x86_64-180.22-pkg2/usr/src/nv/nv.c
    In file included from include/linux/bitops.h:17,
                     from include/linux/kernel.h:15,
                     from include/linux/sched.h:52,
                     from include/linux/utsname.h:35,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:19,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv.c:14:
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:19,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv.c:14:
    /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h: In function '
    set_bit':
    /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:60: warning: p
@@ -138,10 +138,10 @@ Using: nvidia-installer ncurses user interface
    /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:97: warning: p
    ointer of type 'void *' used in arithmetic
    In file included from include/linux/utsname.h:35,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:19,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv.c:14:
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:19,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv.c:14:
    include/linux/sched.h: In function 'object_is_on_stack':
    include/linux/sched.h:2026: warning: pointer of type 'void *' used in arithm
    etic
@@ -152,10 +152,10 @@ Using: nvidia-installer ncurses user interface
                     from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/p
    ci.h:94,
                     from include/linux/pci.h:1002,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:86,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv.c:14:
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:86,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv.c:14:
    include/linux/scatterlist.h: In function 'sg_virt':
    include/linux/scatterlist.h:199: warning: pointer of type 'void *' used in a
    rithmetic
@@ -165,16 +165,16 @@ Using: nvidia-installer ncurses user interface
    ardirq.h:4,
                     from include/linux/hardirq.h:7,
                     from include/linux/interrupt.h:12,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:87,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv.c:14:
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:87,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv.c:14:
    include/linux/irq.h: In function 'irq_to_desc':
    include/linux/irq.h:189: warning: comparison between signed and unsigned
-   In file included from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:113,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv.c:14:
+   In file included from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:113,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv.c:14:
    include/linux/highmem.h: In function 'zero_user_segments':
    include/linux/highmem.h:136: warning: pointer of type 'void *' used in arith
    metic
@@ -183,477 +183,19 @@ Using: nvidia-installer ncurses user interface
    In file included from include/linux/compat.h:14,
                     from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/m
    trr.h:141,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:142,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv.c:14:
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:142,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv.c:14:
    /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/compat.h: In function '
    compat_alloc_user_space':
    /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/compat.h:210: warning: 
    pointer of type 'void *' used in arithmetic
-     cc -Wp,-MD,/tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/.nv-
-   vm.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/4.3.3/include -D
-   __KERNEL__ -Iinclude -Iinclude2 -I/usr/src/linux-2.6.28-gentoo-r1/include -I
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include -include include/linux/auto
-   conf.h  -I/tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv -Wall -
-   Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -
-   Werror-implicit-function-declaration -Os -m64 -march=k8 -mno-red-zone -mcmod
-   el=kernel -funit-at-a-time -maccumulate-outgoing-args -DCONFIG_AS_CFI=1 -DCO
-   NFIG_AS_CFI_SIGNAL_FRAME=1 -pipe -Wno-sign-compare -fno-asynchronous-unwind-
-   tables -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -I/usr/src/linux-2.6.28-gentoo
-   -r1/arch/x86/include/asm/mach-default -Iarch/x86/include/asm/mach-default -f
-   no-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdec
-   laration-after-statement -Wno-pointer-sign  -I/tmp/selfgz2292/NVIDIA-Linux-x
-   86_64-180.22-pkg2/usr/src/nv -Wall -Wimplicit -Wreturn-type -Wswitch -Wforma
-   t -Wchar-subscripts -Wparentheses -Wpointer-arith -Wno-multichar -Werror -mc
-   model=kernel -mno-red-zone -MD -Wsign-compare 
-   -Wno-cast-qual -Wno-error -D__KERNEL__ -DMODULE -DNVRM -DNV_VERSION_STRING=\
-   "180.22\" -UDEBUG -U_DEBUG -DNDEBUG -DMODULE -D"KBUILD_STR(s)=#s" -D"KBUILD_
-   BASENAME=KBUILD_STR(nv_vm)"  -D"KBUILD_MODNAME=KBUILD_STR(nvidia)"  -c -o /t
-   mp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/nv-vm.o /tmp/selfgz
-   2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/nv-vm.c
-   In file included from include/linux/bitops.h:17,
-                    from include/linux/kernel.h:15,
-                    from include/linux/sched.h:52,
-                    from include/linux/utsname.h:35,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:19,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-vm.c:14:
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h: In function '
-   set_bit':
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:60: warning: p
-   ointer of type 'void *' used in arithmetic
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h: In function '
-   clear_bit':
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:97: warning: p
-   ointer of type 'void *' used in arithmetic
-   In file included from include/linux/utsname.h:35,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:19,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-vm.c:14:
-   include/linux/sched.h: In function 'object_is_on_stack':
-   include/linux/sched.h:2026: warning: pointer of type 'void *' used in arithm
-   etic
-   In file included from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/d
-   ma-mapping.h:9,
-                    from include/linux/dma-mapping.h:57,
-                    from include/asm-generic/pci-dma-compat.h:7,
-                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/p
-   ci.h:94,
-                    from include/linux/pci.h:1002,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:86,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-vm.c:14:
-   include/linux/scatterlist.h: In function 'sg_virt':
-   include/linux/scatterlist.h:199: warning: pointer of type 'void *' used in a
-   rithmetic
-   In file included from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/h
-   ardirq_64.h:5,
-                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/h
-   ardirq.h:4,
-                    from include/linux/hardirq.h:7,
-                    from include/linux/interrupt.h:12,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:87,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-vm.c:14:
-   include/linux/irq.h: In function 'irq_to_desc':
-   include/linux/irq.h:189: warning: comparison between signed and unsigned
-   In file included from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:113,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-vm.c:14:
-   include/linux/highmem.h: In function 'zero_user_segments':
-   include/linux/highmem.h:136: warning: pointer of type 'void *' used in arith
-   metic
-   include/linux/highmem.h:139: warning: pointer of type 'void *' used in arith
-   metic
-   In file included from include/linux/compat.h:14,
-                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/m
-   trr.h:141,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:142,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-vm.c:14:
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/compat.h: In function '
-   compat_alloc_user_space':
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/compat.h:210: warning: 
-   pointer of type 'void *' used in arithmetic
-     cc -Wp,-MD,/tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/.os-
-   agp.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/4.3.3/include -
+     cc -Wp,-MD,/tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/.nv
+   -vm.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/4.3.3/include -
    D__KERNEL__ -Iinclude -Iinclude2 -I/usr/src/linux-2.6.28-gentoo-r1/include -
    I/usr/src/linux-2.6.28-gentoo-r1/arch/x86/include -include include/linux/aut
-   oconf.h  -I/tmp/selfgz2292/NVIDIA-Linux
-   -x86_64-180.22-pkg2/usr/src/nv -Wall -Wundef -Wstrict-prototypes -Wno-trigra
-   phs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -
-   Os -m64 -march=k8 -mno-red-zone -mcmodel=kernel -funit-at-a-time -maccumulat
-   e-outgoing-args -DCONFIG_AS_CFI=1 -DCONFIG_AS_CFI_SIGNAL_FRAME=1 -pipe -Wno-
-   sign-compare -fno-asynchronous-unwind-tables -mno-sse -mno-mmx -mno-sse2 -mn
-   o-3dnow -I/usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/mach-default 
-   -Iarch/x86/include/asm/mach-default -fno-stack-protector -fno-omit-frame-poi
-   nter -fno-optimize-sibling-calls -Wdeclaration-after-statement -Wno-pointer-
-   sign  -I/tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv -Wall -Wi
-   mplicit -Wreturn-type -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wpo
-   inter-arith -Wno-multichar -Werror -mcmodel=kernel -mno-red-zone -MD -Wsign-
-   compare -Wno-cast-qual -Wno-error -D__KERNEL__ -DMODULE -DNVRM -DNV_VERSION_
-   STRING=\"180.22\" -UDEBUG -U_DEBUG -DNDEBUG -DMODULE -D"KBUILD_STR(s)=#s" -D
-   "KBUILD_BASENAME=KBUILD_STR(os_agp)"
-     -D"KBUILD_MODNAME=KBUILD_STR(nvidia)"  -c -o /tmp/selfgz2292/NVIDIA-Linux-
-   x86_64-180.22-pkg2/usr/src/nv/os-agp.o /tmp/selfgz2292/NVIDIA-Linux-x86_64-1
-   80.22-pkg2/usr/src/nv/os-agp.c
-   In file included from include/linux/bitops.h:17,
-                    from include/linux/kernel.h:15,
-                    from include/linux/sched.h:52,
-                    from include/linux/utsname.h:35,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:19,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/os-agp.c:24:
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h: In function '
-   set_bit':
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:60: warning: p
-   ointer of type 'void *' used in arithmetic
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h: In function '
-   clear_bit':
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:97: warning: p
-   ointer of type 'void *' used in arithmetic
-   In file included from include/linux/utsname.h:35,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:19,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/os-agp.c:24:
-   include/linux/sched.h: In function 'object_is_on_stack':
-   include/linux/sched.h:2026: warning: pointer of type 'void *' used in arithm
-   etic
-   In file included from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/d
-   ma-mapping.h:9,
-                    from include/linux/dma-mapping.h:57,
-                    from include/asm-generic/pci-dma-compat.h:7,
-                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/p
-   ci.h:94,
-                    from include/linux/pci.h:1002,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:86,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/os-agp.c:24:
-   include/linux/scatterlist.h: In function 'sg_virt':
-   include/linux/scatterlist.h:199: warning: pointer of type 'void *' used in a
-   rithmetic
-   In file included from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/h
-   ardirq_64.h:5,
-                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/h
-   ardirq.h:4,
-                    from include/linux/hardirq.h:7,
-                    from include/linux/interrupt.h:12,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:87,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/os-agp.c:24:
-   include/linux/irq.h: In function 'irq_to_desc':
-   include/linux/irq.h:189: warning: comparison between signed and unsigned
-   In file included from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:113,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/os-agp.c:24:
-   include/linux/highmem.h: In function 'zero_user_segments':
-   include/linux/highmem.h:136: warning: pointer of type 'void *' used in arith
-   metic
-   include/linux/highmem.h:139: warning: pointer of type 'void *' used in arith
-   metic
-   In file included from include/linux/compat.h:14,
-                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/m
-   trr.h:141,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:142,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/os-agp.c:24:
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/compat.h: In function '
-   compat_alloc_user_space':
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/compat.h:210: warning: 
-   pointer of type 'void *' used in arithmetic
-     cc -Wp,-MD,/tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/.os-
-   interface.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/4.3.3/inc
-   lude -D__KERNEL__ -Iinclude -Iinclude2 -I/usr/src/linux-2.6.28-gentoo-r1/inc
-   lude -I/usr/src/linux-2.6.28-gentoo-r1/arch/x86/include -include include/lin
-   ux/autoconf.h  -I/tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv 
-   -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-c
-   ommon -Werror-implicit-function-declaration -Os -m64 -marc
-   h=k8 -mno-red-zone -mcmodel=kernel -funit-at-a-time -maccumulate-outgoing-ar
-   gs -DCONFIG_AS_CFI=1 -DCONFIG_AS_CFI_SIGNAL_FRAME=1 -pipe -Wno-sign-compare 
-   -fno-asynchronous-unwind-tables -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -I/us
-   r/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/mach-default -Iarch/x86/in
-   clude/asm/mach-default -fno-stack-protector -fno-omit-frame-pointer -fno-opt
-   imize-sibling-calls -Wdeclaration-after-statement -Wno-pointer-sign  -I/tmp/
-   selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv -Wall -Wimplicit -Wret
-   urn-type -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wpointer-arith -
-   Wno-multichar -Werror -mcmodel=kernel -mno-red-zone -MD -Wsign-compare -Wno-
-   cast-qual -Wno-error -D__KERNEL__ -DMODULE -DNVRM -DNV_VERSION_STRING=\"180.
-   22\" -UDEBUG -U_DEBUG -DNDEBUG -DMODULE -D"KBUILD_STR(s)=#s" -D"KBUILD_BASEN
-   AME=KBUILD_STR(os_interface)"  -D"KBUILD_MODNAME=KBUILD_STR(nvidia)"  -c -o 
-   /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/os-interface.o /t
-   mp/selfgz2292/NVIDIA-Linux-x86_64-18
-   0.22-pkg2/usr/src/nv/os-interface.c
-   In file included from include/linux/bitops.h:17,
-                    from include/linux/kernel.h:15,
-                    from include/linux/sched.h:52,
-                    from include/linux/utsname.h:35,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:19,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/os-interface.c:26:
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h: In function '
-   set_bit':
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:60: warning: p
-   ointer of type 'void *' used in arithmetic
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h: In function '
-   clear_bit':
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:97: warning: p
-   ointer of type 'void *' used in arithmetic
-   In file included from include/linux/utsname.h:35,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:19,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/os-interface.c:26:
-   include/linux/sched.h: In function 'object_is_on_stack':
-   include/linux/sched.h:2026: warning: pointer of type 'void *' used in arithm
-   etic
-   In file included from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/d
-   ma-mapping.h:9,
-                    from include/linux/dma-mapping.h:57,
-                    from include/asm-generic/pci-dma-compat.h:7,
-                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/p
-   ci.h:94,
-                    from include/linux/pci.h:1002,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:86,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/os-interface.c:26:
-   include/linux/scatterlist.h: In function 'sg_virt':
-   include/linux/scatterlist.h:199: warning: pointer of type 'void *' used in a
-   rithmetic
-   In file included from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/h
-   ardirq_64.h:5,
-                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/h
-   ardirq.h:4,
-                    from include/linux/hardirq.h:7,
-                    from include/linux/interrupt.h:12,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:87,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/os-interface.c:26:
-   include/linux/irq.h: In function 'irq_to_desc':
-   include/linux/irq.h:189: warning: comparison between signed and unsigned
-   In file included from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:113,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/os-interface.c:26:
-   include/linux/highmem.h: In function 'zero_user_segments':
-   include/linux/highmem.h:136: warning: pointer of type 'void *' used in arith
-   metic
-   include/linux/highmem.h:139: warning: pointer of type 'void *' used in arith
-   metic
-   In file included from include/linux/compat.h:14,
-                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/m
-   trr.h:141,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:142,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/os-interface.c:26:
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/compat.h: In function '
-   compat_alloc_user_space':
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/compat.h:210: warning: 
-   pointer of type 'void *' used in arithmetic
-     cc -Wp,-MD,/tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/.os-
-   registry.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/4.3.3/incl
-   ude -D__KERNEL__ -Iinclude -Iinclude2 -I/usr/src/linux-2.6.28-gentoo-r1/incl
-   ude -I/usr/src/linux-2.6.28-gentoo-r1/arch/x86/include -include include/linu
-   x/autoconf.h  -I/tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv -
-   Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-co
-   mmon -Werror-implicit-function-declaration -Os -m64 -march=k8 -mno-red-zone 
-   -mcmodel=kernel -funit-at-a-time -maccumulate-outgoing-args -DCONFIG_AS_CFI=
-   1 -DCONFIG_AS_CFI
-   _SIGNAL_FRAME=1 -pipe -Wno-sign-compare -fno-asynchronous-unwind-tables -mno
-   -sse -mno-mmx -mno-sse2 -mno-3dnow -I/usr/src/linux-2.6.28-gentoo-r1/arch/x8
-   6/include/asm/mach-default -Iarch/x86/include/asm/mach-default -fno-stack-pr
-   otector -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdeclaration-af
-   ter-statement -Wno-pointer-sign  -I/tmp/selfgz2292/NVIDIA-Linux-x86_64-180.2
-   2-pkg2/usr/src/nv -Wall -Wimplicit -Wreturn-type -Wswitch -Wformat -Wchar-su
-   bscripts -Wparentheses -Wpointer-arith -Wno-multichar -Werror -mcmodel=kerne
-   l -mno-red-zone -MD -Wsign-compare -Wno-cast-qual -Wno-error -D__KERNEL__ -D
-   MODULE -DNVRM -DNV_VERSION_STRING=\"180.22\" -UDEBUG -U_DEBUG -DNDEBUG -DMOD
-   ULE -D"KBUILD_STR(s)=#s" -D"KBUILD_BASENAME=KBUILD_STR(os_registry)"  -D"KBU
-   ILD_MODNAME=KBUILD_STR(nvidia)"  -c -o /tmp/selfgz2292/NVIDIA-Linux-x86_64-1
-   80.22-pkg2/usr/src/nv/os-registry.o /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.
-   22-pkg2/usr/src/nv/os-registry.c
-   In file included from include/linux/bitops.h:17,
-                    from include/linux/kernel.h:15,
-                    from include/linux/sched.h:52,
-                    from include/linux/utsname.h:35,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:19,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/os-registry.c:15:
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h: In function '
-   set_bit':
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:60: warning: p
-   ointer of type 'void *' used in arithmetic
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h: In function '
-   clear_bit':
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:97: warning: p
-   ointer of type 'void *' used in arithmetic
-   In file included from include/linux/utsname.h:35,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:19,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/os-registry.c:15:
-   include/linux/sched.h: In function 'object_is_on_stack':
-   include/linux/sched.h:2026: warning: pointer of type 'void *' used in arithm
-   etic
-   In file included from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/d
-   ma-mapping.h:9,
-                    from include/linux/dma-mapping.h:57,
-                    from include/asm-generic/pci-dma-compat.h:7,
-                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/p
-   ci.h:94,
-                    from include/linux/pci.h:1002,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:86,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/os-registry.c:15:
-   include/linux/scatterlist.h: In function 'sg_virt':
-   include/linux/scatterlist.h:199: warning: pointer of type 'void *' used in a
-   rithmetic
-   In file included from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/h
-   ardirq_64.h:5,
-                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/h
-   ardirq.h:4,
-                    from include/linux/hardirq.h:7,
-                    from include/linux/interrupt.h:12,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:87,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/os-registry.c:15:
-   include/linux/irq.h: In function 'irq_to_desc':
-   include/linux/irq.h:189: warning: comparison between signed and unsigned
-   In file included from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:113,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/os-registry.c:15:
-   include/linux/highmem.h: In function 'zero_user_segments':
-   include/linux/highmem.h:136: warning: pointer of type 'void *' used in arith
-   metic
-   include/linux/highmem.h:139: warning: pointer of type 'void *' used in arith
-   metic
-   In file included from include/linux/compat.h:14,
-                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/m
-   trr.h:141,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:142,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/os-registry.c:15:
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/compat.h: In function '
-   compat_alloc_user_space':
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/compat.h:210: warning: 
-   pointer of type 'void *' used in arithmetic
-     cc -Wp,-MD,/tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/.nv-
-   i2c.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/4.3.3/include -
-   D__KERNEL__ -Iinclude -Iinclude2 -I/usr/src/linux-2.6.28-gentoo-r1/include -
-   I/usr/src/linux-2.6.28-gentoo-r1/arch/x86/include -include include/linux/aut
-   oconf.h  -I/tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv -Wall 
-   -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common 
-   -Werror-implicit-function-declaration -Os -m64 -march=k8 -mno-red-zone -mcmo
-   del=kernel -funit-at-a-time -maccumulate-outgoing-args -DCONFIG_AS_CFI=1 -DC
-   ONFIG_AS_CFI_SIGNAL_FRAME=1 -pipe -Wno-sign-compare -fno-asynchronous-unwind
-   -tables -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -I/usr/src/linu
-   x-2.6.28-gentoo-r1/arch/x86/include/asm/mach-default -Iarch/x86/include/asm/
-   mach-default -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibl
-   ing-calls -Wdeclaration-after-statement -Wno-pointer-sign  -I/tmp/selfgz2292
-   /NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv -Wall -Wimplicit -Wreturn-type -
-   Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wpointer-arith -Wno-multic
-   har -Werror -mcmodel=kernel -mno-red-zone -MD -Wsign-compare -Wno-cast-qual 
-   -Wno-error -D__KERNEL__ -DMODULE -DNVRM -DNV_VERSION_STRING=\"180.22\" -UDEB
-   UG -U_DEBUG -DNDEBUG -DMODULE -D"KBUILD_STR(s)=#s" -D"KBUILD_BASENAME=KBUILD
-   _STR(nv_i2c)"  -D"KBUILD_MODNAME=KBUILD_STR(nvidia)"  -c -o /tmp/selfgz2292/
-   NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/nv-i2c.o /tmp/selfgz2292/NVIDIA-L
-   inux-x86_64-180.22-pkg2/usr/src/nv/nv-i2c.c
-   In file included from include/linux/bitops.h:17,
-                    from include/linux/kernel.h:15,
-                    from include/linux/sched.h:52,
-                    from include/linux/utsname.h:35,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:19,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-i2c.c:8:
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h: In function '
-   set_bit':
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:60: warning: p
-   ointer of type 'void *' used in arithmetic
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h: In function '
-   clear_bit':
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:97: warning: p
-   ointer of type 'void *' used in arithmetic
-   In file included from include/linux/utsname.h:35,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:19,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-i2c.c:8:
-   include/linux/sched.h: In function 'object_is_on_stack':
-   include/linux/sched.h:2026: warning: pointer of type 'void *' used in arithm
-   etic
-   In file included from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/d
-   ma-mapping.h:9,
-                    from include/linux/dma-mapping.h:57,
-                    from include/asm-generic/pci-dma-compat.h:7,
-                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/p
-   ci.h:94,
-                    from include/linux/pci.h:1002,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:86,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-i2c.c:8:
-   include/linux/scatterlist.h: In function 'sg_virt':
-   include/linux/scatterlist.h:199: warning: pointer of type 'void *' used in a
-   rithmetic
-   In file included from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/h
-   ardirq_64.h:5,
-                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/h
-   ardirq.h:4,
-                    from include/linux/hardirq.h:7,
-                    from include/linux/interrupt.h:12,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:87,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-i2c.c:8:
-   include/linux/irq.h: In function 'irq_to_desc':
-   include/linux/irq.h:189: warning: comparison between signed and unsigned
-   In file included from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:113,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-i2c.c:8:
-   include/linux/highmem.h: In function 'zero_user_segments':
-   include/linux/highmem.h:136: warning: pointer of type 'void *' used in arith
-   metic
-   include/linux/highmem.h:139: warning: pointer of type 'void *' used in arith
-   metic
-   In file included from include/linux/compat.h:14,
-                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/m
-   trr.h:141,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:142,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-i2c.c:8:
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/compat.h: In function '
-   compat_alloc_user_space':
-   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/compat.h:210: warning: 
-   pointer of type 'void *' used in arithmetic
-     cc -Wp,-MD,/tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/.nva
-   cpi.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/4.3.3/include -
-   D__KERNEL__ -Iinclude -Iinclude2 -I/usr/src/linux-2.6.28-gentoo-r1/include -
-   I/usr/src/linux-2.6.28-gentoo-r1/arch/x86/include -include include/linux/aut
-   oconf.h  -I/tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv -Wall 
+   oconf.h  -I/tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv -Wall
    -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common 
    -Werror-implicit-function-declaration -Os -m64 -march=k8 -mno-red-zone -mcmo
    del=kernel -funit-at-a-time -maccumulate-outgoing-args -DCONFIG_AS_CFI=1 -DC
@@ -661,24 +203,24 @@ Using: nvidia-installer ncurses user interface
    -tables -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -I/usr/src/linux-2.6.28-gento
    o-r1/arch/x86/include/asm/mach-default -Iarch/x86/include/asm/mach-default -
    fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wde
-   claration-a
-   fter-statement -Wno-pointer-sign  -I/tmp/selfgz2292/NVIDIA-Linux-x86_64-180.
-   22-pkg2/usr/src/nv -Wall -Wimplicit -Wreturn-type -Wswitch -Wformat -Wchar-s
-   ubscripts -Wparentheses -Wpointer-arith -Wno-multichar -Werror -mcmodel=kern
-   el -mno-red-zone -MD -Wsign-compare -Wno-cast-qual -Wno-error -D__KERNEL__ -
-   DMODULE -DNVRM -DNV_VERSION_STRING=\"180.22\" -UDEBUG -U_DEBUG -DNDEBUG -DMO
-   DULE -D"KBUILD_STR(s)=#s" -D"KBUILD_BASENAME=KBUILD_STR(nvacpi)"  -D"KBUILD_
-   MODNAME=KBUILD_STR(nvidia)"  -c -o /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.2
-   2-pkg2/usr/src/nv/nvacpi.o /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/u
-   sr/src/nv/nvacpi.c
+   claration-after-statement -Wno-pointer-sign  -I/tmp/selfgz26471/NVIDIA-Linux
+   -x86_64-180.22-pkg2/usr/src/nv -Wall -Wimplicit -Wreturn-type -Wswitch -Wfor
+   mat -Wchar-subscripts -Wparentheses -Wpointer-arith -Wno-multichar -Werror -
+   mcmodel=kernel -mno-red
+   -zone -MD -Wsign-compare -Wno-cast-qual -Wno-error -D__KERNEL__ -DMODULE -DN
+   VRM -DNV_VERSION_STRING=\"180.22\" -UDEBUG -U_DEBUG -DNDEBUG -DMODULE -D"KBU
+   ILD_STR(s)=#s" -D"KBUILD_BASENAME=KBUILD_STR(nv_vm)"  -D"KBUILD_MODNAME=KBUI
+   LD_STR(nvidia)"  -c -o /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/
+   src/nv/nv-vm.o /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/n
+   v-vm.c
    In file included from include/linux/bitops.h:17,
                     from include/linux/kernel.h:15,
                     from include/linux/sched.h:52,
                     from include/linux/utsname.h:35,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:19,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nvacpi.c:15:
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:19,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-vm.c:14:
    /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h: In function '
    set_bit':
    /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:60: warning: p
@@ -688,10 +230,10 @@ Using: nvidia-installer ncurses user interface
    /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:97: warning: p
    ointer of type 'void *' used in arithmetic
    In file included from include/linux/utsname.h:35,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:19,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nvacpi.c:15:
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:19,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-vm.c:14:
    include/linux/sched.h: In function 'object_is_on_stack':
    include/linux/sched.h:2026: warning: pointer of type 'void *' used in arithm
    etic
@@ -702,10 +244,10 @@ Using: nvidia-installer ncurses user interface
                     from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/p
    ci.h:94,
                     from include/linux/pci.h:1002,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:86,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nvacpi.c:15:
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:86,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-vm.c:14:
    include/linux/scatterlist.h: In function 'sg_virt':
    include/linux/scatterlist.h:199: warning: pointer of type 'void *' used in a
    rithmetic
@@ -715,16 +257,16 @@ Using: nvidia-installer ncurses user interface
    ardirq.h:4,
                     from include/linux/hardirq.h:7,
                     from include/linux/interrupt.h:12,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:87,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nvacpi.c:15:
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:87,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-vm.c:14:
    include/linux/irq.h: In function 'irq_to_desc':
    include/linux/irq.h:189: warning: comparison between signed and unsigned
-   In file included from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:113,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nvacpi.c:15:
+   In file included from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:113,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-vm.c:14:
    include/linux/highmem.h: In function 'zero_user_segments':
    include/linux/highmem.h:136: warning: pointer of type 'void *' used in arith
    metic
@@ -733,54 +275,513 @@ Using: nvidia-installer ncurses user interface
    In file included from include/linux/compat.h:14,
                     from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/m
    trr.h:141,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nv-linux.h:142,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nvacpi.c:15:
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:142,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-vm.c:14:
    /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/compat.h: In function '
    compat_alloc_user_space':
    /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/compat.h:210: warning: 
    pointer of type 'void *' used in arithmetic
-     ld -m elf_x86_64   -r -o /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/u
-   sr/src/nv/nvidia.o /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/n
-   v/nv-kernel.o /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/nv.
-   o /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/nv-vm.o /tmp/se
-   lfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/os-agp.o /tmp/selfgz2292
-   /NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/os-interface.o /tmp/selfgz2292/N
-   VIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/os-registry.o /tmp/selfgz2292/NVID
-   IA-Linux-x86_64-180.22-pkg2/usr/src/nv/nv-i2c.o /tmp/selfgz2292/NVIDIA-Linux
-   -x86_64-180.22-pkg2/usr/src/nv/nvacpi.o 
-   (cat /dev/null;   echo kernel//tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg
-   2/usr/src/nv/nvidia.ko;) > /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/u
-   sr/src/nv/modules.order
+     cc -Wp,-MD,/tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/.os
+   -agp.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/4.3.3/include 
+   -D__KERNEL__ -Iinclude -Iinclude2 -I/usr/src/linux-2.6.28-gentoo-r1/include 
+   -I/usr/src/linux-2.6.28-gentoo-r1/arch/x86/include -include include/linux/au
+   toconf.h  -I/tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv -Wal
+   l -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-commo
+   n -Werror-implicit-function-declaration -Os -m64 -march=k8 -mno-red-zone -mc
+   model=kernel -funit-at-a-time -maccumulate-outgoing-args -DCONFIG_AS_CFI=1 -
+   DCONFIG_AS_CFI_SIGNAL_FRAME=1 -pipe -Wno-sign-compare -fno-asynchronous-unwi
+   nd-tables -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -I/usr/src/linux-2.6.28-gen
+   too-r1/arch/x86/include/asm/mach-default -Iarch/x86/include/asm/mach-default
+   -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wd
+   eclaration-after-statement -Wno-pointer-sign  -I/tmp/selfgz26471/NVIDIA-Linu
+   x-x86_64-180.22-pkg2/usr/src/nv -Wall -Wimplicit -Wreturn-type -Wswitch -Wfo
+   rmat -Wchar-subscripts -Wparentheses -Wpointer-arith -Wno-multichar -Werror 
+   -mcmodel=kernel -mno-red-zone -MD -Wsign-compare -Wno-cast-qual -Wno-error -
+   D__KERNEL__ -DMODULE -DNVRM -DNV_VERSION_STRING=\"180.22\" -UDEBUG -U_DEBUG 
+   -DNDEBUG -DMODULE -D"KBUILD_STR(s)=
+   #s" -D"KBUILD_BASENAME=KBUILD_STR(os_agp)"  -D"KBUILD_MODNAME=KBUILD_STR(nvi
+   dia)"  -c -o /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/os-
+   agp.o /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/os-agp.c
+   In file included from include/linux/bitops.h:17,
+                    from include/linux/kernel.h:15,
+                    from include/linux/sched.h:52,
+                    from include/linux/utsname.h:35,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:19,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/os-agp.c:24:
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h: In function '
+   set_bit':
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:60: warning: p
+   ointer of type 'void *' used in arithmetic
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h: In function '
+   clear_bit':
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:97: warning: p
+   ointer of type 'void *' used in arithmetic
+   In file included from include/linux/utsname.h:35,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:19,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/os-agp.c:24:
+   include/linux/sched.h: In function 'object_is_on_stack':
+   include/linux/sched.h:2026: warning: pointer of type 'void *' used in arithm
+   etic
+   In file included from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/d
+   ma-mapping.h:9,
+                    from include/linux/dma-mapping.h:57,
+                    from include/asm-generic/pci-dma-compat.h:7,
+                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/p
+   ci.h:94,
+                    from include/linux/pci.h:1002,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:86,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/os-agp.c:24:
+   include/linux/scatterlist.h: In function 'sg_virt':
+   include/linux/scatterlist.h:199: warning: pointer of type 'void *' used in a
+   rithmetic
+   In file included from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/h
+   ardirq_64.h:5,
+                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/h
+   ardirq.h:4,
+                    from include/linux/hardirq.h:7,
+                    from include/linux/interrupt.h:12,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:87,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/os-agp.c:24:
+   include/linux/irq.h: In function 'irq_to_desc':
+   include/linux/irq.h:189: warning: comparison between signed and unsigned
+   In file included from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:113,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/os-agp.c:24:
+   include/linux/highmem.h: In function 'zero_user_segments':
+   include/linux/highmem.h:136: warning: pointer of type 'void *' used in arith
+   metic
+   include/linux/highmem.h:139: warning: pointer of type 'void *' used in arith
+   metic
+   In file included from include/linux/compat.h:14,
+                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/m
+   trr.h:141,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:142,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/os-agp.c:24:
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/compat.h: In function '
+   compat_alloc_user_space':
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/compat.h:210: warning: 
+   pointer of type 'void *' used in arithmetic
+     cc -Wp,-MD,/tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/.os
+   -interface.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/4.3.3/in
+   clude -D__KERNEL__ -Iinclude -Iinclude2 -I/usr/src/linux-2.6.28-gentoo-r1/in
+   clude -I/usr/src/linux-2.6.28-gentoo-r1/arch/x86/include -include include/li
+   nux/autoconf.h  -I/tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/n
+   v -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno
+   -c
+   ommon -Werror-implicit-function-declaration -Os -m64 -march=k8 -mno-red-zone
+   -mcmodel=kernel -funit-at-a-time -maccumulate-outgoing-args -DCONFIG_AS_CFI=
+   1 -DCONFIG_AS_CFI_SIGNAL_FRAME=1 -pipe -Wno-sign-compare -fno-asynchronous-u
+   nwind-tables -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -I/usr/src/linux-2.6.28-
+   gentoo-r1/arch/x86/include/asm/mach-default -Iarch/x86/include/asm/mach-defa
+   ult -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls
+   -Wdeclaration-after-statement -Wno-pointer-sign  -I/tmp/selfgz26471/NVIDIA-L
+   inux-x86_64-180.22-pkg2/usr/src/nv -Wall -Wimplicit -Wreturn-type -Wswitch -
+   Wformat -Wchar-subscripts -Wparentheses -Wpointer-arith -Wno-multichar -Werr
+   or -mcmodel=kernel -mno-red-zone -MD -Wsign-compare -Wno-cast-qual -Wno-erro
+   r -D__KERNEL__ -DMODULE -DNVRM -DNV_VERSION_STRING=\"180.22\" -UDEBUG -U_DEB
+   UG -DNDEBUG -DMODULE -D"KBUILD_STR(s)=#s" -D"KBUILD_BASENAME=KBUILD_STR(os_i
+   nterface)"  -D"KBUILD_MODNAME=KBUILD_STR(nvidia)"  -c -o /tmp/selfgz26471/NV
+   IDIA-Linux-x86_64-180.22-pkg2/usr/
+   src/nv/os-interface.o /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/os-interface.c
+   In file included from include/linux/bitops.h:17,
+                    from include/linux/kernel.h:15,
+                    from include/linux/sched.h:52,
+                    from include/linux/utsname.h:35,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:19,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/os-interface.c:26:
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h: In function '
+   set_bit':
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:60: warning: p
+   ointer of type 'void *' used in arithmetic
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h: In function '
+   clear_bit':
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:97: warning: p
+   ointer of type 'void *' used in arithmetic
+   In file included from include/linux/utsname.h:35,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:19,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/os-interface.c:26:
+   include/linux/sched.h: In function 'object_is_on_stack':
+   include/linux/sched.h:2026: warning: pointer of type 'void *' used in arithm
+   etic
+   In file included from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/d
+   ma-mapping.h:9,
+                    from include/linux/dma-mapping.h:57,
+                    from include/asm-generic/pci-dma-compat.h:7,
+                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/p
+   ci.h:94,
+                    from include/linux/pci.h:1002,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:86,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/os-interface.c:26:
+   include/linux/scatterlist.h: In function 'sg_virt':
+   include/linux/scatterlist.h:199: warning: pointer of type 'void *' used in a
+   rithmetic
+   In file included from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/h
+   ardirq_64.h:5,
+                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/h
+   ardirq.h:4,
+                    from include/linux/hardirq.h:7,
+                    from include/linux/interrupt.h:12,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:87,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/os-interface.c:26:
+   include/linux/irq.h: In function 'irq_to_desc':
+   include/linux/irq.h:189: warning: comparison between signed and unsigned
+   In file included from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:113,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/os-interface.c:26:
+   include/linux/highmem.h: In function 'zero_user_segments':
+   include/linux/highmem.h:136: warning: pointer of type 'void *' used in arith
+   metic
+   include/linux/highmem.h:139: warning: pointer of type 'void *' used in arith
+   metic
+   In file included from include/linux/compat.h:14,
+                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/m
+   trr.h:141,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:142,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/os-interface.c:26:
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/compat.h: In function '
+   compat_alloc_user_space':
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/compat.h:210: warning: 
+   pointer of type 'void *' used in arithmetic
+     cc -Wp,-MD,/tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/.os
+   -registry.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/4.3.3/inc
+   lude -D__KERNEL__ -Iinclude -Iinclude2 -I/usr/src/linux-2.6.28-gentoo-r1/inc
+   lude -I/usr/src/linux-2.6.28-gentoo-r1/arch/x86/include -include include/lin
+   ux/autoconf.h  -I/tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv
+   -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-c
+   ommon -Werror-implicit-function-declaration -Os -m64 -march=k8 -mno-red-zone
+   -mcmodel=kernel -f
+   unit-at-a-time -maccumulate-outgoing-args -DCONFIG_AS_CFI=1 -DCONFIG_AS_CFI_
+   SIGNAL_FRAME=1 -pipe -Wno-sign-compare -fno-asynchronous-unwind-tables -mno-
+   sse -mno-mmx -mno-sse2 -mno-3dnow -I/usr/src/linux-2.6.28-gentoo-r1/arch/x86
+   /include/asm/mach-default -Iarch/x86/include/asm/mach-default -fno-stack-pro
+   tector -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdeclaration-aft
+   er-statement -Wno-pointer-sign  -I/tmp/selfgz26471/NVIDIA-Linux-x86_64-180.2
+   2-pkg2/usr/src/nv -Wall -Wimplicit -Wreturn-type -Wswitch -Wformat -Wchar-su
+   bscripts -Wparentheses -Wpointer-arith -Wno-multichar -Werror -mcmodel=kerne
+   l -mno-red-zone -MD -Wsign-compare -Wno-cast-qual -Wno-error -D__KERNEL__ -D
+   MODULE -DNVRM -DNV_VERSION_STRING=\"180.22\" -UDEBUG -U_DEBUG -DNDEBUG -DMOD
+   ULE -D"KBUILD_STR(s)=#s" -D"KBUILD_BASENAME=KBUILD_STR(os_registry)"  -D"KBU
+   ILD_MODNAME=KBUILD_STR(nvidia)"  -c -o /tmp/selfgz26471/NVIDIA-Linux-x86_64-
+   180.22-pkg2/usr/src/nv/os-registry.o /tmp/selfgz26471/NVIDIA-Linux-x86_64-18
+   0.22-pkg2/usr/src/nv/os-registry.c
+   In file included from include/linux/bitops.h:17,
+                    from include/linux/kernel.h:15,
+                    from include/linux/sched.h:52,
+                    from include/linux/utsname.h:35,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:19,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/os-registry.c:15:
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h: In function '
+   set_bit':
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:60: warning: p
+   ointer of type 'void *' used in arithmetic
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h: In function '
+   clear_bit':
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:97: warning: p
+   ointer of type 'void *' used in arithmetic
+   In file included from include/linux/utsname.h:35,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:19,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/os-registry.c:15:
+   include/linux/sched.h: In function 'object_is_on_stack':
+   include/linux/sched.h:2026: warning: pointer of type 'void *' used in arithm
+   etic
+   In file included from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/d
+   ma-mapping.h:9,
+                    from include/linux/dma-mapping.h:57,
+                    from include/asm-generic/pci-dma-compat.h:7,
+                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/p
+   ci.h:94,
+                    from include/linux/pci.h:1002,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:86,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/os-registry.c:15:
+   include/linux/scatterlist.h: In function 'sg_virt':
+   include/linux/scatterlist.h:199: warning: pointer of type 'void *' used in a
+   rithmetic
+   In file included from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/h
+   ardirq_64.h:5,
+                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/h
+   ardirq.h:4,
+                    from include/linux/hardirq.h:7,
+                    from include/linux/interrupt.h:12,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:87,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/os-registry.c:15:
+   include/linux/irq.h: In function 'irq_to_desc':
+   include/linux/irq.h:189: warning: comparison between signed and unsigned
+   In file included from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:113,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/os-registry.c:15:
+   include/linux/highmem.h: In function 'zero_user_segments':
+   include/linux/highmem.h:136: warning: pointer of type 'void *' used in arith
+   metic
+   include/linux/highmem.h:139: warning: pointer of type 'void *' used in arith
+   metic
+   In file included from include/linux/compat.h:14,
+                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/m
+   trr.h:141,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:142,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/os-registry.c:15:
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/compat.h: In function '
+   compat_alloc_user_space':
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/compat.h:210: warning: 
+   pointer of type 'void *' used in arithmetic
+     cc -Wp,-MD,/tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/.nv
+   -i2c.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/4.3.3/include 
+   -D__KERNEL__ -Iinclude -Iinclude2 -I/usr/src/linux-2.6.28-gentoo-r1/include 
+   -I/usr/src/linux-2.6.28-gentoo-r1/arch/x86/include -include include/linux/au
+   toconf.h  -I/tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv -Wal
+   l -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-commo
+   n -Werror-implicit-function-declaration -Os -m64 -march=k8 -mno-red-zone -mc
+   model=kernel -funit-at-a-time -maccumulate-outgoing-args -DCONFIG_AS_CFI=1 -
+   DCONFIG_AS_CFI_SIGNAL_FRAME=1 -pipe -Wno-sign-co
+   mpare -fno-asynchronous-unwind-tables -mno-sse -mno-mmx -mno-sse2 -mno-3dnow
+   -I/usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/mach-default -Iarch/x
+   86/include/asm/mach-default -fno-stack-protector -fno-omit-frame-pointer -fn
+   o-optimize-sibling-calls -Wdeclaration-after-statement -Wno-pointer-sign  -I
+   /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv -Wall -Wimplicit
+   -Wreturn-type -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wpointer-ar
+   ith -Wno-multichar -Werror -mcmodel=kernel -mno-red-zone -MD -Wsign-compare 
+   -Wno-cast-qual -Wno-error -D__KERNEL__ -DMODULE -DNVRM -DNV_VERSION_STRING=\
+   "180.22\" -UDEBUG -U_DEBUG -DNDEBUG -DMODULE -D"KBUILD_STR(s)=#s" -D"KBUILD_
+   BASENAME=KBUILD_STR(nv_i2c)"  -D"KBUILD_MODNAME=KBUILD_STR(nvidia)"  -c -o /
+   tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/nv-i2c.o /tmp/sel
+   fgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/nv-i2c.c
+   In file included from include/linux/bitops.h:17,
+                    from include/linux/kernel.h:15,
+                    from include/linux/sched.h:52,
+                    from include/linux/utsname.h:35,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:19,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-i2c.c:8:
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h: In function '
+   set_bit':
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:60: warning: p
+   ointer of type 'void *' used in arithmetic
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h: In function '
+   clear_bit':
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:97: warning: p
+   ointer of type 'void *' used in arithmetic
+   In file included from include/linux/utsname.h:35,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:19,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-i2c.c:8:
+   include/linux/sched.h: In function 'object_is_on_stack':
+   include/linux/sched.h:2026: warning: pointer of type 'void *' used in arithm
+   etic
+   In file included from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/d
+   ma-mapping.h:9,
+                    from include/linux/dma-mapping.h:57,
+                    from include/asm-generic/pci-dma-compat.h:7,
+                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/p
+   ci.h:94,
+                    from include/linux/pci.h:1002,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:86,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-i2c.c:8:
+   include/linux/scatterlist.h: In function 'sg_virt':
+   include/linux/scatterlist.h:199: warning: pointer of type 'void *' used in a
+   rithmetic
+   In file included from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/h
+   ardirq_64.h:5,
+                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/h
+   ardirq.h:4,
+                    from include/linux/hardirq.h:7,
+                    from include/linux/interrupt.h:12,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:87,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-i2c.c:8:
+   include/linux/irq.h: In function 'irq_to_desc':
+   include/linux/irq.h:189: warning: comparison between signed and unsigned
+   In file included from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:113,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-i2c.c:8:
+   include/linux/highmem.h: In function 'zero_user_segments':
+   include/linux/highmem.h:136: warning: pointer of type 'void *' used in arith
+   metic
+   include/linux/highmem.h:139: warning: pointer of type 'void *' used in arith
+   metic
+   In file included from include/linux/compat.h:14,
+                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/m
+   trr.h:141,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:142,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-i2c.c:8:
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/compat.h: In function '
+   compat_alloc_user_space':
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/compat.h:210: warning: 
+   pointer of type 'void *' used in arithmetic
+     cc -Wp,-MD,/tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/.nv
+   acpi.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/4.3.3/include 
+   -D__KERNEL__ -Iinclude -Iinclude2 -I/usr/src/linux-2.6.28-gentoo-r1/include 
+   -I/usr/src/linux-2.6.28-gentoo-r1/arch/x86/include -include include/linux/au
+   toconf.h  -I/tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv -Wal
+   l -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-commo
+   n -Werror-implicit-function-declaration -Os -m64 -march=k8 -mno-red-zone -mc
+   model=kernel -funit-at-a-time -maccumulate-outgoing-args -DCONFIG_AS_CFI=1 -
+   DCONFIG_AS_CFI_SIGNAL_FRAME=1 -pipe -Wno-sign-compare -fno-asynchronous-unwi
+   nd-tables -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -I/usr/src/linux-2.6.28-gen
+   too-r1/arch/x86/include/asm/mach-default -Iarch/x86/incl
+   ude/asm/mach-default -fno-stack-protector -fno-omit-frame-pointer -fno-optim
+   ize-sibling-calls -Wdeclaration-after-statement -Wno-pointer-sign  -I/tmp/se
+   lfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv -Wall -Wimplicit -Wretu
+   rn-type -Wswitch -Wformat -Wchar-subscripts -Wparentheses -Wpointer-arith -W
+   no-multichar -Werror -mcmodel=kernel -mno-red-zone -MD -Wsign-compare -Wno-c
+   ast-qual -Wno-error -D__KERNEL__ -DMODULE -DNVRM -DNV_VERSION_STRING=\"180.2
+   2\" -UDEBUG -U_DEBUG -DNDEBUG -DMODULE -D"KBUILD_STR(s)=#s" -D"KBUILD_BASENA
+   ME=KBUILD_STR(nvacpi)"  -D"KBUILD_MODNAME=KBUILD_STR(nvidia)"  -c -o /tmp/se
+   lfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/nvacpi.o /tmp/selfgz264
+   71/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/nvacpi.c
+   In file included from include/linux/bitops.h:17,
+                    from include/linux/kernel.h:15,
+                    from include/linux/sched.h:52,
+                    from include/linux/utsname.h:35,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:19,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nvacpi.c:15:
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h: In function '
+   set_bit':
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:60: warning: p
+   ointer of type 'void *' used in arithmetic
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h: In function '
+   clear_bit':
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:97: warning: p
+   ointer of type 'void *' used in arithmetic
+   In file included from include/linux/utsname.h:35,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:19,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nvacpi.c:15:
+   include/linux/sched.h: In function 'object_is_on_stack':
+   include/linux/sched.h:2026: warning: pointer of type 'void *' used in arithm
+   etic
+   In file included from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/d
+   ma-mapping.h:9,
+                    from include/linux/dma-mapping.h:57,
+                    from include/asm-generic/pci-dma-compat.h:7,
+                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/p
+   ci.h:94,
+                    from include/linux/pci.h:1002,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:86,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nvacpi.c:15:
+   include/linux/scatterlist.h: In function 'sg_virt':
+   include/linux/scatterlist.h:199: warning: pointer of type 'void *' used in a
+   rithmetic
+   In file included from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/h
+   ardirq_64.h:5,
+                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/h
+   ardirq.h:4,
+                    from include/linux/hardirq.h:7,
+                    from include/linux/interrupt.h:12,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:87,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nvacpi.c:15:
+   include/linux/irq.h: In function 'irq_to_desc':
+   include/linux/irq.h:189: warning: comparison between signed and unsigned
+   In file included from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:113,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nvacpi.c:15:
+   include/linux/highmem.h: In function 'zero_user_segments':
+   include/linux/highmem.h:136: warning: pointer of type 'void *' used in arith
+   metic
+   include/linux/highmem.h:139: warning: pointer of type 'void *' used in arith
+   metic
+   In file included from include/linux/compat.h:14,
+                    from /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/m
+   trr.h:141,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nv-linux.h:142,
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nvacpi.c:15:
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/compat.h: In function '
+   compat_alloc_user_space':
+   /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/compat.h:210: warning: 
+   pointer of type 'void *' used in arithmetic
+     ld -m elf_x86_64   -r -o /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/
+   usr/src/nv/nvidia.o /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src
+   /nv/nv-kernel.o /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/
+   nv.o /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/nv-vm.o /tm
+   p/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/os-agp.o /tmp/selfg
+   z26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/os-interface.o /tmp/selfgz
+   26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/os-registry.o /tmp/selfgz26
+   471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/nv-i2c.o /tmp/selfgz26471/NVI
+   DIA-Linux-x86_64-180.22-pkg2/usr/src/nv/nvacpi.o 
+   (cat /dev/null;   echo kernel//tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pk
+   g2/usr/src/nv/nvidia.ko;) > /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2
+   /usr/src/nv/modules.order
      Building modules, stage 2.
    make -f /usr/src/linux-2.6.28-gentoo-r1/scripts/Makefile.modpost
      scripts/mod/modpost   -i /usr/src/linux-2.6.28-gentoo-r1/Module.symvers -I
-   /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/Module.symvers  -
-   o /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/Module.symvers 
-   -S -K /usr/src/linux-2.6.28-gentoo-r1/Module.markers -M /tmp/selfgz2292/NVID
-   IA-Linux-x86_64-180.22-pkg2/usr/src/nv/Module.markers -w  -s
-     cc -Wp,-MD,/tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/.nvi
-   dia.mod.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/4.3.3/inclu
-   de -D__KERNEL__ -Iinclude -Iinclude2 -I/usr/src/linux-2.6.28-gentoo-r1/inclu
-   de -I/usr/src/linux-2.6.28-gentoo-r1/arch/x86/include -include include/linux
-   /autoconf.h  -I/tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv -W
-   all -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-com
-   mon -Werror-implicit-function-declaration -Os -m64 -march=k8 -mno-red-zone -
-   mcmodel=kernel -funit-at-a-time -maccumulate-outgoing-args -DCONFIG_AS_CFI=1
-   -DCONFIG_AS_CFI_SIGNAL_FRAME=1 -pipe -Wno-sign-compare -fno-asynchronous-unw
-   ind-tables -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -I/usr/src/linux-2.6.28-ge
-   ntoo-r1/arch/x86/include/asm/mach-default -Iarch/x86/include/asm/mach-de
-   fault -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-cal
-   ls -Wdeclaration-after-statement -Wno-pointer-sign  -I/tmp/selfgz2292/NVIDIA
-   -Linux-x86_64-180.22-pkg2/usr/src/nv -Wall -Wimplicit -Wreturn-type -Wswitch
-   -Wformat -Wchar-subscripts -Wparentheses -Wpointer-arith -Wno-multichar -Wer
-   ror -mcmodel=kernel -mno-red-zone -MD -Wsign-compare -Wno-cast-qual -Wno-err
-   or -D__KERNEL__ -DMODULE -DNVRM -DNV_VERSION_STRING=\"180.22\" -UDEBUG -U_DE
-   BUG -DNDEBUG  -D"KBUILD_STR(s)=#s" -D"KBUILD_BASENAME=KBUILD_STR(nvidia.mod)
-   "  -D"KBUILD_MODNAME=KBUILD_STR(nvidia)"  -DMODULE -c -o /tmp/selfgz2292/NVI
-   DIA-Linux-x86_64-180.22-pkg2/usr/src/nv/nvidia.mod.o /tmp/selfgz2292/NVIDIA-
-   Linux-x86_64-180.22-pkg2/usr/src/nv/nvidia.mod.c
+   /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/Module.symvers  
+   -o /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/Module.symver
+   s -S -K /usr/src/linux-2.6.28-gentoo-r1/Module.markers -M /tmp/selfgz26471/N
+   VIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/Module.markers -w  -s
+     cc -Wp,-MD,/tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv/.nv
+   idia.mod.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-pc-linux-gnu/4.3.3/incl
+   ude -D__KERNEL__ -Iinclude -Iinclude2 -I/usr/src/linux-2.6.28-gentoo-r1/incl
+   ude -I/usr/src/linux-2.6.28-gentoo-r1/arch/x86/include -include include/linu
+   x/autoconf.h  -I/tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/src/nv 
+   -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-c
+   ommon -Werror-implicit-function-declaration -Os -m64 -march=k8 -mno-red-zone
+   -mcmodel=kernel -funit-at-a-time -maccumulate-outgoing-args -DCONFIG_AS_CFI=
+   1 -DCONFIG_AS_CFI_SIGNAL_FRAME=1 -pipe -Wno-sign-compare -fno-asynchronous-u
+   nwind-tabl
+   es -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -I/usr/src/linux-2.6.28-gentoo-r1/
+   arch/x86/include/asm/mach-default -Iarch/x86/include/asm/mach-default -fno-s
+   tack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdeclara
+   tion-after-statement -Wno-pointer-sign  -I/tmp/selfgz26471/NVIDIA-Linux-x86_
+   64-180.22-pkg2/usr/src/nv -Wall -Wimplicit -Wreturn-type -Wswitch -Wformat -
+   Wchar-subscripts -Wparentheses -Wpointer-arith -Wno-multichar -Werror -mcmod
+   el=kernel -mno-red-zone -MD -Wsign-compare -Wno-cast-qual -Wno-error -D__KER
+   NEL__ -DMODULE -DNVRM -DNV_VERSION_STRING=\"180.22\" -UDEBUG -U_DEBUG -DNDEB
+   UG  -D"KBUILD_STR(s)=#s" -D"KBUILD_BASENAME=KBUILD_STR(nvidia.mod)"  -D"KBUI
+   LD_MODNAME=KBUILD_STR(nvidia)"  -DMODULE -c -o /tmp/selfgz26471/NVIDIA-Linux
+   -x86_64-180.22-pkg2/usr/src/nv/nvidia.mod.o /tmp/selfgz26471/NVIDIA-Linux-x8
+   6_64-180.22-pkg2/usr/src/nv/nvidia.mod.c
    In file included from include/linux/bitops.h:17,
                     from include/linux/kernel.h:15,
                     from include/linux/cache.h:4,
@@ -793,8 +794,8 @@ Using: nvidia-installer ncurses user interface
                     from include/linux/prefetch.h:14,
                     from include/linux/list.h:6,
                     from include/linux/module.h:9,
-                    from /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nvidia.mod.c:1:
+                    from /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr/s
+   rc/nv/nvidia.mod.c:1:
    /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h: In function '
    set_bit':
    /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:60: warning: p
@@ -803,45 +804,44 @@ Using: nvidia-installer ncurses user interface
    clear_bit':
    /usr/src/linux-2.6.28-gentoo-r1/arch/x86/include/asm/bitops.h:97: warning: p
    ointer of type 'void *' used in arithmetic
-     ld -r -m elf_x86_64  --build-id -o /tmp/selfgz2292/NVIDIA-Linux-x86_64-180
-   .22-pkg2/usr/src/nv/nvidia.ko /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg
-   2/usr/src/nv/nvidia.o /tmp/selfgz2292/NVIDIA-Linux-x86_64-180.22-pkg2/usr/sr
-   c/nv/nvidia.mod.o
+     ld -r -m elf_x86_64  --build-id -o /tmp/selfgz26471/NVIDIA-Linux-x86_64-18
+   0.22-pkg2/usr/src/nv/nvidia.ko /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-p
+   kg2/usr/src/nv/nvidia.o /tmp/selfgz26471/NVIDIA-Linux-x86_64-180.22-pkg2/usr
+   /src/nv/nvidia.mod.o
    NVIDIA: left KBUILD.
 -> done.
 -> Kernel module compilation complete.
 -> Kernel messages:
-   [    5.713955] usb 1-0:1.0: uevent
-   [    5.713995] usb 1-9: uevent
-   [    5.714018] usb 1-9:1.0: uevent
-   [    7.006903] EXT3 FS on sda3, internal journal
-   [    8.476777] scsi 4:0:0:0: Direct-Access     Generic  USB SD Reader   
-   1.00 PQ: 0 ANSI: 0
-   [    8.478122] sd 4:0:0:0: [sdb] Attached SCSI removable disk
-   [    8.478202] sd 4:0:0:0: Attached scsi generic sg2 type 0
-   [    8.482407] scsi 4:0:0:1: Direct-Access     Generic  USB CF Reader   
-   1.01 PQ: 0 ANSI: 0
-   [    8.483278] sd 4:0:0:1: [sdc] Attached SCSI removable disk
-   [    8.483342] sd 4:0:0:1: Attached scsi generic sg3 type 0
-   [    8.484039] scsi 4:0:0:2: Direct-Access     Generic  USB SM Reader   
-   1.02 PQ: 0 ANSI: 0
-   [    8.484870] sd 4:0:0:2: [sdd] Attached SCSI removable disk
-   [    8.484943] sd 4:0:0:2: Attached scsi generic sg4 type 0
-   [    8.485651] scsi 4:0:0:3: Direct-Access     Generic  USB MS Reader   
-   1.03 PQ: 0 ANSI: 0
-   [    8.486493] sd 4:0:0:3: [sde] Attached SCSI removable disk
-   [    8.486558] sd 4:0:0:3: Attached scsi generic sg5 type 0
-   [    8.486828] usb-storage: device scan complete
-   [    8.959043] forcedeth 0000:00:07.0: irq 380 for MSI/MSI-X
-   [    9.224126] Adding 1004052k swap on /dev/sda2.  Priority:-1 extents:1
-   across:1004052k
-   [   19.494074] eth0: no IPv6 routers present
-   [   82.491620] nvidia: module license 'NVIDIA' taints kernel.
-   [   82.751511] ACPI: PCI Interrupt Link [APC8] enabled at IRQ 16
-   [   82.751523] nvidia 0000:02:00.0: PCI INT A -> Link[APC8] -> GSI 16
+   [    9.498185] usb 2-0:1.0: uevent
+   [    9.498226] usb 2-6: uevent
+   [    9.498246] usb 2-6:1.0: uevent
+   [    9.498475] usb usb1: uevent
+   [    9.498495] usb 1-0:1.0: uevent
+   [    9.498536] usb 1-9: uevent
+   [    9.498556] usb 1-9:1.0: uevent
+   [    9.961958] nvidia: module license 'NVIDIA' taints kernel.
+   [   10.222529] ACPI: PCI Interrupt Link [APC8] enabled at IRQ 16
+   [   10.222541] nvidia 0000:02:00.0: PCI INT A -> Link[APC8] -> GSI 16
    (level, low) -> IRQ 16
-   [   82.751530] nvidia 0000:02:00.0: setting latency timer to 64
-   [   82.751998] NVRM: loading NVIDIA UNIX x86_64 Kernel Module  180.22  Tue
+   [   10.222548] nvidia 0000:02:00.0: setting latency timer to 64
+   [   10.222863] NVRM: loading NVIDIA UNIX x86_64 Kernel Module  180.22  Tue
+   Jan  6 09:15:58 PST 2009
+   [   10.839767] EXT3 FS on sda3, internal journal
+   [   12.484011] forcedeth 0000:00:07.0: irq 380 for MSI/MSI-X
+   [   12.724095] Adding 1004052k swap on /dev/sda2.  Priority:-1 extents:1
+   across:1004052k
+   [   12.820910] dd used greatest stack depth: 3472 bytes left
+   [   23.376016] eth0: no IPv6 routers present
+   [77226.501012] Clocksource tsc unstable (delta = -62545970 ns)
+   [137667.506427] awesome[3057]: segfault at 1c ip 00007f9e8aacb5c0 sp
+   00007fff92ef4ee8 error 4 in libxcb.so.1.0.0[7f9e8aabd000+1c000]
+   [139995.254082] NVRM: API mismatch: the client has the version 180.27, but
+   [139995.254084] NVRM: this kernel module has the version 180.22.  Please
+   [139995.254085] NVRM: make sure that this kernel module and all NVIDIA
+   driver
+   [139995.254087] NVRM: components have the same version.
+   [140103.463990] nvidia 0000:02:00.0: setting latency timer to 64
+   [140103.464820] NVRM: loading NVIDIA UNIX x86_64 Kernel Module  180.22  Tue
    Jan  6 09:15:58 PST 2009
 -> Installing both new and classic TLS OpenGL libraries.
 -> Installing both new and classic TLS 32bit OpenGL libraries.
@@ -849,6 +849,23 @@ Using: nvidia-installer ncurses user interface
 -> Parsing log file:
 -> done.
 -> Validating previous installation:
+-> Unable to access previously installed file '/usr/lib64/libcuda.so.180.22'
+   (No such file or directory).
+-> Unable to access previously installed file '/usr/lib64/libvdpau.so.180.22'
+   (No such file or directory).
+-> Unable to access previously installed file
+   '/usr/lib64/libvdpau_trace.so.180.22' (No such file or directory).
+-> Unable to access previously installed file
+   '/usr/lib64/libvdpau_nvidia.so.180.22' (No such file or directory).
+-> The previously installed file '/usr/lib64/libXvMCNVIDIA.a' has a different
+   checksum (1715817933) than when it was installed (2812400558). 
+   /usr/lib64/libXvMCNVIDIA.a will not be uninstalled.
+-> Unable to access previously installed file
+   '/usr/lib64/libXvMCNVIDIA.so.180.22' (No such file or directory).
+-> The previously installed file
+   '/usr/lib64/xorg/modules/drivers/nvidia_drv.so' has a different checksum
+   (113977000) than when it was installed (643250849). 
+   /usr/lib64/xorg/modules/drivers/nvidia_drv.so will not be uninstalled.
 -> The previously installed file '/usr/include/GL/gl.h' has a different
    checksum (1726018529) than when it was installed (448874206). 
    /usr/include/GL/gl.h will not be uninstalled.
@@ -861,23 +878,69 @@ Using: nvidia-installer ncurses user interface
 -> The previously installed file '/usr/include/GL/glxext.h' has a different
    checksum (513042228) than when it was installed (1271128954). 
    /usr/include/GL/glxext.h will not be uninstalled.
--> The previously installed file '/usr/bin/nvidia-settings' has a different
-   checksum (1027978651) than when it was installed (3646374358). 
-   /usr/bin/nvidia-settings will not be uninstalled.
--> Unable to access previously installed file '/usr/lib64/libGL.la' (No such
-   file or directory).
--> Unable to access previously installed file '/usr/lib32/libGL.la' (No such
-   file or directory).
--> The previously installed file
-   '/usr/share/applications/nvidia-settings.desktop' has a different checksum
-   (2345888442) than when it was installed (977511138). 
-   /usr/share/applications/nvidia-settings.desktop will not be uninstalled.
--> Unable to access previously installed symlink '/usr/lib64/libGL.so' (No such
-   file or directory).
--> Unable to access previously installed symlink
-   '/usr/lib64/xorg/modules/extensions/libglx.so' (No such file or directory).
--> Unable to access previously installed symlink '/usr/lib32/libGL.so' (No such
-   file or directory).
+-> The previously installed file '/usr/include/vdpau/vdpau.h' has a different
+   checksum (1571512363) than when it was installed (1938260157). 
+   /usr/include/vdpau/vdpau.h will not be uninstalled.
+-> The previously installed file '/usr/bin/nvidia-xconfig' has a different
+   checksum (3451878742) than when it was installed (1409598840). 
+   /usr/bin/nvidia-xconfig will not be uninstalled.
+-> Unable to access previously installed file '/usr/lib32/libcuda.so.180.22'
+   (No such file or directory).
+-> Unable to access previously installed file '/usr/lib32/libvdpau.so.180.22'
+   (No such file or directory).
+-> Unable to access previously installed file
+   '/usr/lib32/libvdpau_trace.so.180.22' (No such file or directory).
+-> Unable to access previously installed file
+   '/usr/lib32/libvdpau_nvidia.so.180.22' (No such file or directory).
+-> The previously installed file '/usr/lib64/libGL.la' has a different checksum
+   (1535766418) than when it was installed (2651162338).  /usr/lib64/libGL.la
+   will not be uninstalled.
+-> The previously installed file '/usr/lib32/libGL.la' has a different checksum
+   (1184315040) than when it was installed (978238274).  /usr/lib32/libGL.la
+   will not be uninstalled.
+-> The previously installed symlink '/usr/lib64/libcuda.so.1' has target
+   'libcuda.so.180.27', but it was installed with target 'libcuda.so.180.22'. 
+   /usr/lib64/libcuda.so.1 will not be uninstalled.
+-> The previously installed symlink '/usr/lib64/libGL.so' has target
+   '/usr/lib64/opengl/nvidia/lib/libGL.so', but it was installed with target
+   'libGL.so.1'.  /usr/lib64/libGL.so will not be uninstalled.
+-> The previously installed symlink
+   '/usr/lib64/xorg/modules/extensions/libglx.so' has target
+   '/usr/lib64/opengl/nvidia/extensions/libglx.so', but it was installed with
+   target 'libglx.so.180.22'.  /usr/lib64/xorg/modules/extensions/libglx.so
+   will not be uninstalled.
+-> The previously installed symlink '/usr/lib64/libvdpau.so.1' has target
+   'libvdpau.so.180.27', but it was installed with target 'libvdpau.so.180.22'.
+   /usr/lib64/libvdpau.so.1 will not be uninstalled.
+-> The previously installed symlink '/usr/lib64/libvdpau_trace.so' has target
+   'libvdpau_trace.so.1', but it was installed with target
+   'libvdpau_trace.so.180.22'.  /usr/lib64/libvdpau_trace.so will not be
+   uninstalled.
+-> The previously installed symlink '/usr/lib64/libvdpau_nvidia.so' has target
+   'libvdpau_nvidia.so.1', but it was installed with target
+   'libvdpau_nvidia.so.180.22'.  /usr/lib64/libvdpau_nvidia.so will not be
+   uninstalled.
+-> The previously installed symlink '/usr/lib64/libXvMCNVIDIA_dynamic.so.1' has
+   target 'libXvMCNVIDIA.so.180.27', but it was installed with target
+   'libXvMCNVIDIA.so.180.22'.  /usr/lib64/libXvMCNVIDIA_dynamic.so.1 will not
+   be uninstalled.
+-> The previously installed symlink '/usr/lib32/libcuda.so.1' has target
+   'libcuda.so.180.27', but it was installed with target 'libcuda.so.180.22'. 
+   /usr/lib32/libcuda.so.1 will not be uninstalled.
+-> The previously installed symlink '/usr/lib32/libGL.so' has target
+   '/usr/lib32/opengl/nvidia/lib/libGL.so', but it was installed with target
+   'libGL.so.1'.  /usr/lib32/libGL.so will not be uninstalled.
+-> The previously installed symlink '/usr/lib32/libvdpau.so.1' has target
+   'libvdpau.so.180.27', but it was installed with target 'libvdpau.so.180.22'.
+   /usr/lib32/libvdpau.so.1 will not be uninstalled.
+-> The previously installed symlink '/usr/lib32/libvdpau_trace.so' has target
+   'libvdpau_trace.so.1', but it was installed with target
+   'libvdpau_trace.so.180.22'.  /usr/lib32/libvdpau_trace.so will not be
+   uninstalled.
+-> The previously installed symlink '/usr/lib32/libvdpau_nvidia.so' has target
+   'libvdpau_nvidia.so.1', but it was installed with target
+   'libvdpau_nvidia.so.180.22'.  /usr/lib32/libvdpau_nvidia.so will not be
+   uninstalled.
 -> done.
 WARNING: Your driver installation has been altered since it was initially
          installed; this may happen, for example, if you have since installed
@@ -887,14 +950,99 @@ WARNING: Your driver installation has been altered since it was initially
          the file '/var/log/nvidia-installer.log' for details.
 -> Uninstalling NVIDIA Accelerated Graphics Driver for Linux-x86_64 (1.0-18022
    (180.22)):
+-> Unable to restore symbolic link /usr/X11R6/lib64/libGL.so ->
+   //usr/lib64/opengl/xorg-x11/lib/libGL.so (File exists).
+-> Unable to restore symbolic link
+   /usr/X11R6/lib64/xorg/modules/extensions/libglx.so ->
+   //usr/lib64/opengl/xorg-x11/extensions/libglx.so (File exists).
+-> Unable to restore symbolic link /usr/X11R6/lib64/libcuda.so.1 ->
+   libcuda.so.180.22 (File exists).
+-> Unable to restore symbolic link /usr/X11R6/lib64/libXvMCNVIDIA_dynamic.so.1
+   -> libXvMCNVIDIA.so.180.22 (File exists).
+-> Unable to restore symbolic link /usr/X11R6/lib64/libXvMCNVIDIA.so ->
+   libXvMCNVIDIA.so.180.22 (File exists).
+-> Unable to restore symbolic link /usr/X11R6/lib64/opengl/nvidia/lib/libGL.so
+   -> libGL.so.180.22 (File exists).
+-> Unable to restore symbolic link
+   /usr/X11R6/lib64/opengl/nvidia/lib/libGLcore.so -> libGLcore.so.180.22 (File
+   exists).
+-> Unable to restore symbolic link
+   /usr/X11R6/lib64/opengl/nvidia/lib/libGLcore.so.1 -> libGLcore.so.180.22
+   (File exists).
+-> Unable to restore symbolic link
+   /usr/X11R6/lib64/opengl/nvidia/lib/libnvidia-cfg.so.1 ->
+   libnvidia-cfg.so.180.22 (File exists).
+-> Unable to restore symbolic link
+   /usr/X11R6/lib64/opengl/nvidia/lib/libGL.so.1 -> libGL.so.180.22 (File
+   exists).
+-> Unable to restore symbolic link
+   /usr/X11R6/lib64/opengl/nvidia/lib/libnvidia-cfg.so ->
+   libnvidia-cfg.so.180.22 (File exists).
+-> Unable to restore symbolic link
+   /usr/X11R6/lib64/opengl/xorg-x11/lib/libGL.so -> libGL.so.1.2 (File
+   exists).
+-> Unable to restore symbolic link
+   /usr/X11R6/lib64/opengl/xorg-x11/lib/libGL.so.1 -> libGL.so.1.2 (File
+   exists).
+-> Unable to restore symbolic link /usr/X11R6/lib32/libGL.so ->
+   //usr/lib32/opengl/xorg-x11/lib/libGL.so (File exists).
+-> Unable to restore symbolic link /usr/X11R6/lib32/libcuda.so.1 ->
+   libcuda.so.180.22 (File exists).
+-> Unable to restore symbolic link /usr/X11R6/lib32/opengl/nvidia/lib/libGL.so
+   -> libGL.so.180.22 (File exists).
+-> Unable to restore symbolic link
+   /usr/X11R6/lib32/opengl/nvidia/lib/libGLcore.so -> libGLcore.so.180.22 (File
+   exists).
+-> Unable to restore symbolic link
+   /usr/X11R6/lib32/opengl/nvidia/lib/libGLcore.so.1 -> libGLcore.so.180.22
+   (File exists).
+-> Unable to restore symbolic link
+   /usr/X11R6/lib32/opengl/nvidia/lib/libGL.so.1 -> libGL.so.180.22 (File
+   exists).
+-> Unable to restore symbolic link
+   /usr/X11R6/lib64/opengl/nvidia/tls/libnvidia-tls.so.1 ->
+   libnvidia-tls.so.180.22 (File exists).
+-> Unable to restore symbolic link
+   /usr/X11R6/lib64/opengl/nvidia/tls/libnvidia-tls.so ->
+   libnvidia-tls.so.180.22 (File exists).
+-> Unable to restore symbolic link
+   /usr/X11R6/lib64/opengl/nvidia/lib/libnvidia-tls.so.1 ->
+   ../tls/libnvidia-tls.so.1 (File exists).
+-> Unable to restore symbolic link
+   /usr/X11R6/lib64/opengl/nvidia/lib/libnvidia-tls.so ->
+   ../tls/libnvidia-tls.so (File exists).
+-> Unable to restore symbolic link
+   /usr/X11R6/lib64/opengl/nvidia/no-tls/libnvidia-tls.so.1 ->
+   libnvidia-tls.so.180.22 (File exists).
+-> Unable to restore symbolic link
+   /usr/X11R6/lib64/opengl/nvidia/no-tls/libnvidia-tls.so ->
+   libnvidia-tls.so.180.22 (File exists).
+-> Unable to restore symbolic link
+   /usr/X11R6/lib32/opengl/nvidia/tls/libnvidia-tls.so.1 ->
+   libnvidia-tls.so.180.22 (File exists).
+-> Unable to restore symbolic link
+   /usr/X11R6/lib32/opengl/nvidia/tls/libnvidia-tls.so ->
+   libnvidia-tls.so.180.22 (File exists).
+-> Unable to restore symbolic link
+   /usr/X11R6/lib32/opengl/nvidia/lib/libnvidia-tls.so.1 ->
+   ../tls/libnvidia-tls.so.1 (File exists).
+-> Unable to restore symbolic link
+   /usr/X11R6/lib32/opengl/nvidia/lib/libnvidia-tls.so ->
+   ../tls/libnvidia-tls.so (File exists).
+-> Unable to restore symbolic link
+   /usr/X11R6/lib32/opengl/nvidia/no-tls/libnvidia-tls.so.1 ->
+   libnvidia-tls.so.180.22 (File exists).
+-> Unable to restore symbolic link
+   /usr/X11R6/lib32/opengl/nvidia/no-tls/libnvidia-tls.so ->
+   libnvidia-tls.so.180.22 (File exists).
 -> Unable to restore symbolic link /usr/include/GL/gl.h ->
-   //usr/lib64/opengl/xorg-x11/include/gl.h (File exists).
+   /usr/lib64/opengl/nvidia/include/gl.h (File exists).
 -> Unable to restore symbolic link /usr/include/GL/glext.h ->
-   //usr/lib64/opengl/global/include/glext.h (File exists).
+   /usr/lib64/opengl/global/include/glext.h (File exists).
 -> Unable to restore symbolic link /usr/include/GL/glx.h ->
-   //usr/lib64/opengl/xorg-x11/include/glx.h (File exists).
+   /usr/lib64/opengl/nvidia/include/glx.h (File exists).
 -> Unable to restore symbolic link /usr/include/GL/glxext.h ->
-   //usr/lib64/opengl/global/include/glxext.h (File exists).
+   /usr/lib64/opengl/global/include/glxext.h (File exists).
 -> done.
 -> Uninstallation of existing driver: NVIDIA Accelerated Graphics Driver for
    Linux-x86_64 (180.22) is complete.
@@ -908,8 +1056,24 @@ WARNING: Your driver installation has been altered since it was initially
 -> done.
 -> Driver file installation is complete.
 -> Running post-install sanity check:
+WARNING: The symbolic link '/usr/lib64/libvdpau.so.1' does not point to
+         'libvdpau.so.180.22' as is necessary for correct operation of the
+         NVIDIA Accelerated Graphics Driver for Linux-x86_64.  It is possible
+         that `ldconfig` has created this incorrect symbolic link because
+         libvdpau.so.180.27's "soname" conflicts with that of
+         libvdpau.so.180.22.  It is recommended that you remove or rename the
+         file 'libvdpau.so.180.27' and create the necessary symbolic link by
+         running `ln -sf libvdpau.so.180.22 /usr/lib64/libvdpau.so.1`.
+WARNING: The symbolic link '/usr/lib32/libvdpau.so.1' does not point to
+         'libvdpau.so.180.22' as is necessary for correct operation of the
+         NVIDIA Accelerated Graphics Driver for Linux-x86_64.  It is possible
+         that `ldconfig` has created this incorrect symbolic link because
+         libvdpau.so.180.27's "soname" conflicts with that of
+         libvdpau.so.180.22.  It is recommended that you remove or rename the
+         file 'libvdpau.so.180.27' and create the necessary symbolic link by
+         running `ln -sf libvdpau.so.180.22 /usr/lib32/libvdpau.so.1`.
 -> done.
--> Post-install sanity check passed.
+-> Post-install sanity check failed.
 -> Shared memory test passed.
 -> Running runtime sanity check:
 -> done.
