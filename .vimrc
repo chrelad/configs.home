@@ -4,4 +4,4 @@
 :set autoindent
 :set splitright
 :set foldmethod=marker
-:colo bw
+:colo industrial

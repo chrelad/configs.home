@@ -1,7 +1,6 @@
-*background:		rgb:84/82/73
-*foreground:		rgb:21/20/10
+*background:		rgb:22/22/22
+*foreground:		rgb:44/44/44
 *faceSize:		9
 *boldMode:		false
 *faceName:		fixed:pixelsize=16
-*colorMode:		false
 *showBlinkAsBold:	true
